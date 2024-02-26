@@ -1,23 +1,26 @@
-# TÍTULO DO PROJETO
+# PROJETO KIPA - "KEEP A ROUTINE"
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de uma Aplicação Interativa`
 
-`SEMESTRE`
+`2024/1`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O Kipa é um projeto onde será desenvolvido um programa de organização semanal. O website será desenvolvido com a ideia de ser de simples uso para qualquer um, mesmo que não tenham familiaridade com tecnologia, e usuários poderão ter controle completo sobre
+seus horários pelo site. O projeto conterá alertas, lembretes, listas e muitas outras funcionalidades para facilitar ainda mais a organização da rotina do usuário.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Ana Beatriz Araújo Brandão
+* Danielle França Araújo da Silva
+* Gabriel Victor Miranda de Oliveira
+* Henrique Nogueira do Prado
+* Rafael Santos Silva
+* Vinícius Nogueira do Prado
 
 ## Orientador
 
-* Nome completo do professor 1
+* José Wilson da Costa
 
 ## Instruções de utilização
 
