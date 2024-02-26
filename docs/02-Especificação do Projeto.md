@@ -48,8 +48,19 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | ALTA | 
-|RF-002| A aplicação deve emitir um relatório de tarefas realizadas no mês   | MÉDIA |
+|RF-001| O site deve permitir o cadastro do usuário | ALTA | 
+|RF-002| O site deve permitir o login do usuário   | ALTA |
+|RF-003| O site deve permitir a modificação de dados do usuário | ALTA |
+|RF-004| O site deve conter uma página inicial para receber o usuário | ALTA |
+|RF-005| O site deve ser acessível para qualquer pessoa independente do nível de conhecimento tecnológico | ALTA |
+|RF-006| O site deve permitir a criação, deleção e edição de dos dados de lembretes | ALTA |
+|RF-007| O site deve conter uma página que exibe todos os lembretes e rotinas definidos | ALTA |
+|RF-008| O site deve permitir a criação, deleção e edição dos dados de rotinas | ALTA |
+|RF-009| O site deve permitir o upload de fotos para a conta do usuário | MÉDIA |
+|RF-010| O site deve permitir a definição de alarmes para lembretes | MÉDIA | 
+|RF-011| O site deve notificar o usuário depois do tempo definido em um lembrete ou rotina acabar | MÉDIA |
+|RF-012| O site deve permitir separar lembretes em seções diferentes por meio de classificações dadas pelo usuário | MÉDIA |
+|RF-013| O site deve permitir separar rotinas em seções diferentes por meio de classificações dadas pelo usuário | MÉDIA |
 
 ### Requisitos não Funcionais
 
