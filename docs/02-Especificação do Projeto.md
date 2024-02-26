@@ -94,8 +94,3 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa/blob/main/docs/img/casosdeusokipa.drawio.png"> <br>
  VERSÃO INICIAL
 </p>
-
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
