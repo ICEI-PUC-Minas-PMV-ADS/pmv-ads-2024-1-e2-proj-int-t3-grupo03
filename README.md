@@ -1,3 +1,7 @@
+<p align="center">
+  <img src='docs/img/kipalogomarca.png' width='25%'>
+</p>
+
 # PROJETO KIPA - "KEEP A ROUTINE"
 
 `Análise e Desenvolvimento de Sistemas`
