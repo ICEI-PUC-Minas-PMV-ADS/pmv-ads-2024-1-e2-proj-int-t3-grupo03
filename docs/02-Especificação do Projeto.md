@@ -93,6 +93,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-001| A aplicação deve ser responsiva | MÉDIA | 
 |RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-003| O código deve ser bem documentado e modularizado para facilitar futuras alterações e correções. |  MÉDIA | 
+|RNF-004| A aplicação deve ser compatível com os principais navegadores: Google Chrome, Firefox e Microsoft Edge. | ALTA |
+|RNF-005| A aplicação deve garantir a segurança dos dados do usuário durante o cadastro | ALTA |
+|RNF-006| A aplicação deve haver controle de acesso para proteger informações confidenciais do usuário | ALTA |
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
