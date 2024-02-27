@@ -8,7 +8,12 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Valkiria Mendes, 22 anos, acadêmica de Direito Puc Minas, BelorizontIna, noiva e sem filhos. Está oitavo período, e precisa se 
+lembrar de todas as suas tarefas, trabalhos e projetos acadêmicos e suas entregas semanais, mensais e bimestrais. Ela precisa de ter seu plano de estudos para a sua prova da ordem e está planejando qual assunto irá realisar seu TCC. Na parte da tarde ela vai à academia, e aos finais de semana participa de palestras e oratórias. Agora ela tem aulas on-line duas vezes na semana, segunda e terça, às 19 horas. Todos os seus trabalhos são semanais, e são entregues toda semana na sexta-feira. No mês de julho Valkiria entra de férias e já está programando para viajar. Ela precisa de ter uma organização diária, semanal e mensal de seus estudos, para entregar tudo a tempo do que sua universidade exige dela.
+
+Henrique Braga, 48 anos, contador autônomo a 25 anos, formado em contabilidade na Universade USP e faz atendimentos em casa. Henrique precisa organizar seus clientes, e os agendamentos do dia, e quais os trabalhos serão feitos no dia e quantos agendados. Henrique como atleta e um homem ativo, mais reservado  e solteiro. Ele não entende muito de tecnologia, ele precisa de algo que falicite os seus dias no trabalho, ele faz ainda seus agendamentos a mão, e acaba que ás vezes perdendo estes documentos do clientes, não lembrava mais qual era o caso do cliente, só do telefone e tem que retornar a ligação com omesmo. Ele precisa agendar cada caso do cliente, agendando para tal dia e horário sem perder, e agendando com antecedência. Aos finais de semana Henrique pratica natação aos sábados de manhã e de noite ele encontra os velhos amigos para praticar o alpinismo. Ele faz seus atendimentos na parte da manhã e de tarde de segunda á sexta, e a noite que ele precisa organizar sua agenda para o dia seguinte.
+
+Laila Pires, 35 anos, dona de casa em tempo integral, mãe de 2 filnhos Jasmin e Sanjei, casada. Acabou de mudar para Niterói-RJ- e não conhece direito onde os compromisso de seus filhos localiza. Entretanto precisa fazer sua lista de tarefas do dia, tarafas de seus filhos, lista de como compras e quais são as tarefas do dia e da semana para todos. Ela precisa de que quando suas tarefa fou comprida mostre a ela e do que ainda precisa. Seu marido faz viagens e ela tem que contabilizar quantos dias o seus marido vai se ausentar. Ela precisa sabe quais tarefas serão feitas de cada filho, Jasmin faz aula de piano aos domingo á tarde, Sanjei tem treino de futebol todos os dias da semana, Jasmin faz consultas mensais com seu médico e Sanjei semanalmente vai a nuticionista. Fora as tarefas domesticas que Laila tem que está com elas em dia. Laila está finalizando suas aulas da autoescola e seu exame do DETRAN será marcado.
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
@@ -26,11 +31,31 @@ Lembre-se que você deve ser enumerar e descrever precisamente e personalizada t
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|EU COMO `VALKIRIA MENDES`| QUERO/PRECISO ...`GERENCIAMENTO`   |PARA ...`ACADÊMICO`                     |
+|-------------------------|------------------------------------|----------------------------------------|
+|Usuário do sistema       | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|Usuário do sistema       | Lembrete de minas tarefas          | Enfatizar a tarefa                     |
+|Usuário do sistema       | Espesificar cada tarefa            | Se lembrado que se trata               |
+|Adminstrador             | Disponibilizar horário e datas     | Escolha de preferencia                 |
+|Adminstrador             | Notificação de tarefa              | Pontencializar a tarefa                |
 
+|EU COMO...`HENRIQUE BRAGA` | QUERO/PRECISO ... `PRATICIDADE`      |PARA ... `PROFISSIONAL`                 |
+|-------------------------|----------------------------------------|----------------------------------------|
+|Usuário do sistema       | Organizar minhas lista de clientes     | Não esquecer do atendimento do dia     |
+|Usuário do sistema       | Marcar se o cliente compareceu         | Para remarcar                          |
+|Usuário do sistema       | Espesificar o caso do cliente          | Facilitando a solução do caso          |
+|Adminstrador             | Lista de clientes por orgem alfabete   | Não esquecer o nome dos clientes       |
+|Adminstrador             | Lista de clientes por orgem de horário | Para saber qual o próximo atendimento  |
+
+|EU COMO `LAILA PIRES`    | QUERO/PRECISO ...`FUNCIONAL`                  |PARA ... `USO PESSOAL/FAMILIAR`                  |
+|-------------------------|-----------------------------------------------|-------------------------------------------------|
+|Usuário do sistema       | Preciso regidtrar o local do meu compromisso  | Não esquecer de onde localiza seus compromissos |
+|Usuário do sistema       | Faz lista de tarefas, lista de compras        | Lista uma sobre a outra tendo ordem             |
+|Usuário do sistema       | Galendario completo                           | Para registrar tudo que precisa                 |
+|Usuário do sistema       | Marcação no galendario personalizada          | Diferenciar cada um dos compromissos            |
+|Adminstrador             | Marcar que a tarefa foi concluída             | Para saber o que falta ser concluído            |
+|Adminstrador             | Da localização atual                          | Onde está logalizada no nomento                 |
+ 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
 > **Links Úteis**:
