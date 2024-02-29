@@ -11,16 +11,8 @@ Foi deste conceito que surgiu a ideia do Kipa, tendo seu nome ser a pronúncia d
 
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Muitas pessoas têm planos, sonhos e objetivos, mas começar o dia sem uma forma clara de visualizar suas tarefas e responsabilidades a curto e médio prazo pode impactar negativamente suas vidas. Isso pode resultar em procrastinação, perda de prazos importantes, compromissos esquecidos e aumento do estresse devido à sobrecarga de trabalho. A negligência no gerenciamento do dia-a-dia pode causar frustrações, ansiedade e sentimentos de incompetência, que surgem quando alguém se sente sobrecarregado e desorganizado. Esses aspectos afetam diretamente a saúde e o bem-estar das pessoas.
 
 ## Objetivos
 
