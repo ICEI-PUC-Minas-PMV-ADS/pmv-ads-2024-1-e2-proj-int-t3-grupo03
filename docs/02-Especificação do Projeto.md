@@ -94,5 +94,4 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 <kbd>
  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa/blob/main/docs/img/casosdeusokipa.drawio.png"> <br>
 </kbd>
- VERSÃO INICIAL
 </p>
