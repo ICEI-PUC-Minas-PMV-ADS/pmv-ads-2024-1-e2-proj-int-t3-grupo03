@@ -24,12 +24,8 @@ Por fim, o objetivo do Kipa é contribuir para o bem-estar emocional e mental do
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Conforme pesquisa realizada por Oracle e a Workplace Intelligence (2021), com mais de 14.600 funcionários em 13 países, relataram não ter nenhum ou pouco controle da vida pessoal. Independentemente da situação individual de cada usuário, o Kipa visa ser um aliado confiável na busca pelo estabelecimento e manutenção de uma rotina saudável e disciplinada. Via uma plataforma interativa e personalizável, o Kipa permite que os usuários criem e gerenciem suas tarefas diárias, recebendo notificações e definindo horários específicos para cada atividade, promovendo assim uma maior eficiência e produtividade em suas rotinas.
+Esta proposta é fundamentada em estudos e pesquisas que destacam a importância de uma rotina bem definida para o bem-estar físico e mental das pessoas, bem como na análise de casos e necessidades observadas no contexto atual da sociedade.
 
 ## Público-Alvo
 
