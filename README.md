@@ -11,7 +11,7 @@
 `2024/1`
 
 O Kipa é um projeto onde será desenvolvido um programa de organização semanal. O website será desenvolvido com a ideia de ser de simples uso para qualquer um, mesmo que não tenham familiaridade com tecnologia, e usuários poderão ter controle completo sobre
-seus horários pelo site. O projeto conterá alertas, lembretes, listas e muitas outras funcionalidades para facilitar ainda mais a organização da rotina do usuário.
+seus horários pelo site. O projeto conterá alertas, lembretes, listas e muitas outras funcionalidades para facilitar ainda mais a organização da rotina do usuário .
 
 ## Integrantes
 
