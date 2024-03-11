@@ -15,7 +15,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 48 anos, contador autônomo há mais de 20 anos, formado em contabilidade na Universidade USP, faz atendimentos em casa. Henrique precisa organizar seus clientes, e os agendamentos do dia, quais os trabalhos serão feitos no dia e quantos agendados. Ele, como atleta, é um homem ativo, mais reservado e solteiro. Ele não entende muito de tecnologia, ele precisa de algo que facilite os seus dias no trabalho, ele faz ainda seus agendamentos à mão, e acaba que às vezes perde estes documentos dos clientes, não lembrava mais qual era o caso do cliente, só do telefone e tem que retornar a ligação ao mesmo. Henrique precisa agendar cada caso do cliente, agendando para tal dia e horário sem perder, e agendando com antecedência. Aos finais de semana, Henrique pratica natação aos sábados de manhã e à noite ele encontra os velhos amigos para praticar o alpinismo. Ele faz seus atendimentos na parte da manhã e de tarde de segunda a sexta, e à noite, que ele precisa organizar sua agenda para o dia seguinte.
 
 ### Laila Pires 
-35 anos, dona de casa em tempo integral, mãe de 2 filhos, Jasmin e Sanjay, casada. Acabou de se mudar para Niterói–RJ e não conhece as localidades da cidade e onde cada compromisso se localiza. Entretanto, precisa fazer sua lista de tarefas do dia, tarefas de seus filhos, lista de compras e quais são as tarefas do dia e da semana para todos. Ela precisa que suas tarefas sejam declaradas como cumpridas quando ela as termina (checklist). Seu marido faz viagens e ela tem que contabilizar quantos dias o seu marido vai se ausentar. Sabendo quais tarefas serão feitas de cada filho e agendando como de Jasmin, que faz aula de piano aos domingos à tarde, Sanjay que faz treinos de futebol todos os dias da semana, Jasmin faz consultas mensais com seu médico e Sanjay semanalmente vai ao nutricionista. Fora as tarefas domésticas que têm que estar em dia.
+35 anos, dona de casa em tempo integral, mãe de 2 filhos, Jasmin e Sanjay, casada. Mora em  Niterói–RJ. Precisa fazer sua lista de tarefas do dia, tarefas de seus filhos, lista de compras e quais são as tarefas do dia e da semana para todos. Ela precisa que suas tarefas sejam declaradas como cumpridas quando ela as termina (checklist). Seu marido faz viagens e ela tem que contabilizar quantos dias o seu marido vai se ausentar. Sabendo quais tarefas serão feitas de cada filho e agendando como de Jasmin, que faz aula de piano aos domingos à tarde, Sanjay que faz treinos de futebol todos os dias da semana, Jasmin faz consultas mensais com seu médico e Sanjay semanalmente vai ao nutricionista. Fora as tarefas domésticas que têm que estar em dia.
 
 ## Histórias de Usuários
 
@@ -43,8 +43,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Usuário do sistema       | Faz lista de tarefas, lista de compras        | Lista uma sobre a outra, tendo ordem             |
 |Usuário do sistema       | Calendário completo                           | Para registrar tudo que precisa                 |
 |Usuário do sistema       | Marcação no calendário personalizada          | Diferenciar cada um dos compromissos            |
-|Administrador             | Marcar que a tarefa foi concluída             | Para saber o que falta ser concluído            |
-|Administrador             | Localização do endereço                          | Onde está localizada no nomento                 |
+|Administrador             | Marcar que a tarefa foi concluída             | Para saber o que falta ser concluído    | Contabilizar a duração de curto a logo prazo  | Para saber planos, eventos e quado seu marido volta |
 
 ## Requisitos
 
