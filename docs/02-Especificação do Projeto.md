@@ -43,7 +43,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Usuário do sistema       | Faz lista de tarefas, lista de compras        | Lista uma sobre a outra, tendo ordem             |
 |Usuário do sistema       | Calendário completo                           | Para registrar tudo que precisa                 |
 |Usuário do sistema       | Marcação no calendário personalizada          | Diferenciar cada um dos compromissos            |
-|Administrador             | Marcar que a tarefa foi concluída             | Para saber o que falta ser concluído    | Contabilizar a duração de curto a logo prazo  | Para saber planos, eventos e quado seu marido volta |
+|Administrador             | Marcar que a tarefa foi concluída             | Para saber o que falta ser concluído    
+|Administrador             | Contabilizar a duração de curto a logo prazo  | Para saber planos, eventos e quado seu marido volta |
 
 ## Requisitos
 
