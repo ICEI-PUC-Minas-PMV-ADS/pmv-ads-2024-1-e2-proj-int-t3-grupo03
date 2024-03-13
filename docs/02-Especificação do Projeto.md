@@ -92,6 +92,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 ## Diagrama de Casos de Uso
 <p align='center' font-size='2px' text-align='center'>
 <kbd>
- <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa/blob/main/docs/img/casosdeusokipa.drawio.png"> <br>
+ <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa/blob/30558ac579fdfc01f3646b97af9f4e72b43642d0/docs/img/casosdeuso2.png"> <br>
 </kbd>
 </p>
