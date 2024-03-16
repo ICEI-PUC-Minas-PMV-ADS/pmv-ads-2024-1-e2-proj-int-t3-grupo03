@@ -1,14 +1,16 @@
 
 # Metodologia
 
+Neste projeto, adotaremos uma abordagem ágil, utilizando tanto o Scrum quanto o Kanban para gerenciar nossas atividades de maneira eficaz.
+Ao combinar o Scrum e o Kanban, esperamos aproveitar o melhor de ambas as metodologias: a estrutura e os rituais do Scrum para garantir entregas consistentes e a flexibilidade e a visualização do Kanban para otimizar nosso fluxo de trabalho e melhorar a transparência em todo o projeto.
+
 ## Relação de Ambientes de Trabalho
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 |Ambiente                        | Plataforma            |Link de Acesso         |
 |--------------------------------|-----------------------|-----------------|
 |Repositório de Código Fonte      |Git Hub                |https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa|
-|Projeto de Interface e wireframes |                |     |
 |Gerenciamento de Projeto (KANBAN)         |Trello         |  https://trello.com/b/MtXF4nev/projeto-grupo-03-kipa   |
-|Estrutura do código | Visual Studio Code| - |
+
 
 ## Controle de Versão
 
@@ -61,30 +63,43 @@ A divisão da equipe será:
   
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+**SPRINT 1**
+
+  1. Planejamento
+   
+  Documentação de contexto: estabelecer o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+  Especificação do projeto: estabelecer as personas, histórias de usuários, requisitos funcionais e não funcionais, além das restrições do projeto.
+  
+  2. Execução
+   
+  Nessa etapa as funções foram divididas entre a equipe de desenvolvimento para realizar as atividades da etapa 1, e foi feito a Documentação de contexto e Especificação do projeto.
+
+  3. EVIDÊNCIAS
+
+  Como evidências, temos o documento "[Documentação de contexto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa/blob/main/docs/01-Documentação%20de%20Contexto.md)" e o documento "      [Especificação do projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa/blob/main/docs/02-Especificação%20do%20Projeto.md)".
+
+  
+  ![Etapa 1 - Kanban](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa/assets/48370523/cda957f5-a266-4853-bdd0-e466b3a4d1f2)
+
+
+
 
 ### Ferramentas
 
-As ferramentas empregadas no projeto são:
+**Ferramentas de desenvolvimento**:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+- [VSCode](https://code.visualstudio.com)
 
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
+O VSCode foi utilizado para escrever a documentação.
+  
  
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+**Ferramentas de comunicação e documentação**: 
+
+- [Github](https://github.com/)
+- [WhatsApp](https://whatsapp.com/)
+- [Google Meet](https://meet.google.com)
+- [Trello](https://trello.com)
+
+O whatsapp é uma ferramenta de comunicação rapida para organizar e planejar as atividades da equipe de desenvolvimento, que durante o processo utilizou o Google Meet que oferece uma serviço melhor de comunicação em tempo real.
+O Github foi a plataforma utilizada para fazer a documentação do projeto e o Trello a gestão do quadro Kanban.
