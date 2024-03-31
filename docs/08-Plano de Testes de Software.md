@@ -12,13 +12,10 @@ Por exemplo:
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-001 O site deve permitir o cadastro do usuário. |
 | Objetivo do Teste 	| Verificar se o cadastro de usuário está operando corretamente. |
-| Passos 	|1)Entrar no app
-2)Clicar em “Cadastre-se” <br>
-3)Informar as informações solicitadas <br>
-4)Clicar no botão cadastrar |
+| Passos 	|1)Entrar no app 2)Clicar em “Cadastre-se” <br> 3)Informar as informações solicitadas <br>4)Clicar no botão cadastrar |
 |Critério de Êxito | - O cadastro foi realizado com sucesso. |
-|  	|  	|
-| Caso de Teste 	| CT-02 – O site deve permitir o login do usuário	|
+|:---:	|:---:	|
+| **Caso de Teste** 	| **CT-02 – Login do usuário**	|
 |Requisito Associado |RF-002	-O site deve permitir o login do usuário |
 | Objetivo do Teste 	| Verificar se o usuário consegue realizar login. |
 | Passos 	| 1)Preencher o campo de e-mail <br> 2)Preencher o campo da senha <br> 3)Clicar em "Login" |
