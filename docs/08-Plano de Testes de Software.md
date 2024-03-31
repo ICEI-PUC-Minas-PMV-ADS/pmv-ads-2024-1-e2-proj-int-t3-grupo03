@@ -20,7 +20,12 @@ Por exemplo:
 | Objetivo do Teste 	| Verificar se o usuário consegue realizar login. |
 | Passos 	| 1)Preencher o campo de e-mail <br> 2)Preencher o campo da senha <br> 3)Clicar em "Login" |
 |Critério de Êxito | - O login foi realizado com sucesso. |
-
+|:---:	|:---:	|
+| **Caso de Teste** 	| **CT-03 – Modificação dos dados do usuário**	|
+|Requisito Associado |RF-003	O site deve permitir a modificação de dados do usuário |
+| Objetivo do Teste 	| Verificar se o usuário consegue modificar seus dados cadastrados no app |
+| Passos 	| 1)Entrar no app <br> 2)Clicar em perfil <br> 3)Clicar em "Atualizar informações" |
+|Critério de Êxito | - Dados atualizados com sucesso |
  
 > **Links Úteis**:
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
