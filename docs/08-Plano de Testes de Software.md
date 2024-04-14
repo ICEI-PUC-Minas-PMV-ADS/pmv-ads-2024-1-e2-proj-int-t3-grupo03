@@ -27,6 +27,19 @@
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa/assets/107258146/df36c7c7-e67e-4b1b-9f64-e68ab13afbbd)
 
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa/assets/107258146/428b8c78-bbdf-4e46-8957-0916fd5a582b)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa/assets/107258146/970f8058-54b0-45c3-9024-f139d9980f29)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa/assets/107258146/cd198265-dc57-4c85-b6b6-876fd716cb27)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa/assets/107258146/9e64d1ef-4d3d-4de4-bbe2-749d37ee8de1)
+
+
+
+
+
+
 
 
 
@@ -44,24 +57,7 @@
 
 
  
-| **Caso de Teste** 	| **CT-01 – Cadastrar perfil** 	|
-|:---:	|:---:	|
-|	Requisito Associado 	| RF-001 O site deve permitir o cadastro do usuário. |
-| Objetivo do Teste 	| Verificar se o cadastro de usuário está operando corretamente. |
-| Passos 	|1)Entrar no app 2)Clicar em “Cadastre-se” <br> 3)Informar as informações solicitadas <br>4)Clicar no botão cadastrar |
-|Critério de Êxito | - O cadastro foi realizado com sucesso. |
-|:---:	|:---:	|
-| **Caso de Teste** 	| **CT-02 – Login do usuário**	|
-|Requisito Associado |RF-002	-O site deve permitir o login do usuário |
-| Objetivo do Teste 	| Verificar se o usuário consegue realizar login. |
-| Passos 	| 1)Preencher o campo de e-mail <br> 2)Preencher o campo da senha <br> 3)Clicar em "Login" |
-|Critério de Êxito | - O login foi realizado com sucesso. |
-|:---:	|:---:	|
-| **Caso de Teste** 	| **CT-03 – Modificação dos dados do usuário**	|
-|Requisito Associado |RF-003	O site deve permitir a modificação de dados do usuário |
-| Objetivo do Teste 	| Verificar se o usuário consegue modificar seus dados cadastrados no app |
-| Passos 	| 1)Entrar no app <br> 2)Clicar em perfil <br> 3)Clicar em "Atualizar informações" |
-|Critério de Êxito | - Dados atualizados com sucesso |
+
  
 > **Links Úteis**:
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
