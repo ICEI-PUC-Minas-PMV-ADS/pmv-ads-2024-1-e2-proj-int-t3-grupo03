@@ -19,9 +19,6 @@
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa/assets/107258146/ff4a4417-d784-4617-a0b6-45682b6ee8b3)
 
-
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa/assets/107258146/7ab946b2-6f41-494d-9fb1-0b4e540ac20b)
-
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa/assets/107258146/a82667f1-7ad2-423a-bc84-d93b8aea277e)
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa/assets/107258146/536d627c-d67a-452e-b970-088ec024ac62)
