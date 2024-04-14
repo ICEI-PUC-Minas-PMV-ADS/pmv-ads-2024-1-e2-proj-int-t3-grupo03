@@ -89,9 +89,11 @@ A divisão da equipe será:
 **Ferramentas de desenvolvimento**:
 
 - [VSCode](https://code.visualstudio.com)
+- [Visual Studio](https://visualstudio.microsoft.com/pt-br/)
+- [Figma](https://www.figma.com)
+- [draw.io](https://app.diagrams.net)
 
 
-O VSCode foi utilizado para escrever a documentação.
   
  
 **Ferramentas de comunicação e documentação**: 
