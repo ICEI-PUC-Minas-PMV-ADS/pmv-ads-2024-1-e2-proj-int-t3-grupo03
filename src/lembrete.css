@@ -25,11 +25,31 @@ h1 {
 	text-align: center;
 }
 
+div{
+	text-align: center;
+}
+
+.botoes {
+	background-color:hsl(203, 100%, 46%) ;
+	color: white;
+	width: 10%;
+	cursor: pointer;
+}
+
+.lembretes{
+	background-color: #777;
+	color: white;
+	width: 20%;
+	height: 90px;
+	font-size: 20px;
+	
+}
+
 
 nav {
 	margin: 0 auto;
 	max-width: 800px;
-	background: #008FEA;
+	background: hsl(203, 100%, 46%);
 	box-shadow:0 3px 15px rgba(0,0,0,.15);
 }
 
