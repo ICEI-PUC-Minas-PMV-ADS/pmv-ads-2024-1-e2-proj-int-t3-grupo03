@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vostro5471\\Documents\\KippaProject\\pmv-ads-2024-1-e2-ProjKipa\\src\\Kippa.csproj": {}
+    "C:\\Users\\VINCIUS NOGUEIRA\\Desktop\\Projeto 2024\\pmv-ads-2024-1-e2-ProjKipa\\src\\Kippa.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vostro5471\\Documents\\KippaProject\\pmv-ads-2024-1-e2-ProjKipa\\src\\Kippa.csproj": {
+    "C:\\Users\\VINCIUS NOGUEIRA\\Desktop\\Projeto 2024\\pmv-ads-2024-1-e2-ProjKipa\\src\\Kippa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vostro5471\\Documents\\KippaProject\\pmv-ads-2024-1-e2-ProjKipa\\src\\Kippa.csproj",
+        "projectUniqueName": "C:\\Users\\VINCIUS NOGUEIRA\\Desktop\\Projeto 2024\\pmv-ads-2024-1-e2-ProjKipa\\src\\Kippa.csproj",
         "projectName": "Kippa",
-        "projectPath": "C:\\Users\\vostro5471\\Documents\\KippaProject\\pmv-ads-2024-1-e2-ProjKipa\\src\\Kippa.csproj",
-        "packagesPath": "C:\\Users\\vostro5471\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vostro5471\\Documents\\KippaProject\\pmv-ads-2024-1-e2-ProjKipa\\src\\obj\\",
+        "projectPath": "C:\\Users\\VINCIUS NOGUEIRA\\Desktop\\Projeto 2024\\pmv-ads-2024-1-e2-ProjKipa\\src\\Kippa.csproj",
+        "packagesPath": "C:\\Users\\VINCIUS NOGUEIRA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\VINCIUS NOGUEIRA\\Desktop\\Projeto 2024\\pmv-ads-2024-1-e2-ProjKipa\\src\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\vostro5471\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\VINCIUS NOGUEIRA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
