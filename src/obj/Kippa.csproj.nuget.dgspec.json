@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\VINCIUS NOGUEIRA\\Desktop\\Projeto 2024\\pmv-ads-2024-1-e2-ProjKipa\\src\\Kippa.csproj": {}
+    "C:\\Users\\Gabriel Victor\\Documents\\ProjetoKipa\\pmv-ads-2024-1-e2-ProjKipa\\src\\Kippa.csproj": {}
   },
   "projects": {
-    "C:\\Users\\VINCIUS NOGUEIRA\\Desktop\\Projeto 2024\\pmv-ads-2024-1-e2-ProjKipa\\src\\Kippa.csproj": {
+    "C:\\Users\\Gabriel Victor\\Documents\\ProjetoKipa\\pmv-ads-2024-1-e2-ProjKipa\\src\\Kippa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VINCIUS NOGUEIRA\\Desktop\\Projeto 2024\\pmv-ads-2024-1-e2-ProjKipa\\src\\Kippa.csproj",
+        "projectUniqueName": "C:\\Users\\Gabriel Victor\\Documents\\ProjetoKipa\\pmv-ads-2024-1-e2-ProjKipa\\src\\Kippa.csproj",
         "projectName": "Kippa",
-        "projectPath": "C:\\Users\\VINCIUS NOGUEIRA\\Desktop\\Projeto 2024\\pmv-ads-2024-1-e2-ProjKipa\\src\\Kippa.csproj",
-        "packagesPath": "C:\\Users\\VINCIUS NOGUEIRA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VINCIUS NOGUEIRA\\Desktop\\Projeto 2024\\pmv-ads-2024-1-e2-ProjKipa\\src\\obj\\",
+        "projectPath": "C:\\Users\\Gabriel Victor\\Documents\\ProjetoKipa\\pmv-ads-2024-1-e2-ProjKipa\\src\\Kippa.csproj",
+        "packagesPath": "C:\\Users\\Gabriel Victor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gabriel Victor\\Documents\\ProjetoKipa\\pmv-ads-2024-1-e2-ProjKipa\\src\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\VINCIUS NOGUEIRA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Gabriel Victor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,6 +48,26 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
