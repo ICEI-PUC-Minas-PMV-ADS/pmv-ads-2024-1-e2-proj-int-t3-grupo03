@@ -12,9 +12,9 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kippa")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de54797388582b749c03186e6a96c0b00d1bc305")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6cfd3aa61e9a98335e189784b60eec3ccd6a873e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kippa")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kippa")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
