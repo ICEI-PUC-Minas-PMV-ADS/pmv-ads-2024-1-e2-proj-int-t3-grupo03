@@ -7,8 +7,27 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Controllers\lembretesController.cs" />
-    <Compile Remove="Controllers\TarefasController.cs" />
+    <Compile Remove="Views\LembreteView\**" />
+    <Compile Remove="Views\TarefaView\**" />
+    <Content Remove="Views\LembreteView\**" />
+    <Content Remove="Views\TarefaView\**" />
+    <EmbeddedResource Remove="Views\LembreteView\**" />
+    <EmbeddedResource Remove="Views\TarefaView\**" />
+    <None Remove="Views\LembreteView\**" />
+    <None Remove="Views\TarefaView\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Views\Home\Index.cshtml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Views\Home\Index.cshtml.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Views\Home\Index.cshtml.cs" />
+    <Content Include="Views\Home\Index.cshtml.css" />
   </ItemGroup>
 
   <ItemGroup>
