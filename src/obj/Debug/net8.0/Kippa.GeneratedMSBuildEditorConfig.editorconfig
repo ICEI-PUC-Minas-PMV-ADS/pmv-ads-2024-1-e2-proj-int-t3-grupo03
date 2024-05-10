@@ -26,32 +26,28 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\vostro5471\Documents\KippaProject\pmv-ads-2024-1-e2-ProjKipa\src
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/vostro5471/Documents/KippaProject/pmv-ads-2024-1-e2-ProjKipa/src/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/vostro5471/Documents/KippaProject/pmv-ads-2024-1-e2-ProjKipa/src/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vostro5471/Documents/KippaProject/pmv-ads-2024-1-e2-ProjKipa/src/Views/LembreteView/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVtYnJldGVWaWV3XENyZWF0ZS5jc2h0bWw=
+[C:/Users/vostro5471/Documents/KippaProject/pmv-ads-2024-1-e2-ProjKipa/src/Views/Lembretes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVtYnJldGVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vostro5471/Documents/KippaProject/pmv-ads-2024-1-e2-ProjKipa/src/Views/LembreteView/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVtYnJldGVWaWV3XERlbGV0ZS5jc2h0bWw=
+[C:/Users/vostro5471/Documents/KippaProject/pmv-ads-2024-1-e2-ProjKipa/src/Views/Lembretes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVtYnJldGVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vostro5471/Documents/KippaProject/pmv-ads-2024-1-e2-ProjKipa/src/Views/LembreteView/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVtYnJldGVWaWV3XERldGFpbHMuY3NodG1s
+[C:/Users/vostro5471/Documents/KippaProject/pmv-ads-2024-1-e2-ProjKipa/src/Views/Lembretes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVtYnJldGVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vostro5471/Documents/KippaProject/pmv-ads-2024-1-e2-ProjKipa/src/Views/LembreteView/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVtYnJldGVWaWV3XEVkaXQuY3NodG1s
+[C:/Users/vostro5471/Documents/KippaProject/pmv-ads-2024-1-e2-ProjKipa/src/Views/Lembretes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVtYnJldGVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vostro5471/Documents/KippaProject/pmv-ads-2024-1-e2-ProjKipa/src/Views/LembreteView/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVtYnJldGVWaWV3XEluZGV4LmNzaHRtbA==
+[C:/Users/vostro5471/Documents/KippaProject/pmv-ads-2024-1-e2-ProjKipa/src/Views/Lembretes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVtYnJldGVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/vostro5471/Documents/KippaProject/pmv-ads-2024-1-e2-ProjKipa/src/Views/Shared/Error.cshtml]
@@ -62,24 +58,44 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vostro5471/Documents/KippaProject/pmv-ads-2024-1-e2-ProjKipa/src/Views/TarefaView/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWZhVmlld1xDcmVhdGUuY3NodG1s
+[C:/Users/vostro5471/Documents/KippaProject/pmv-ads-2024-1-e2-ProjKipa/src/Views/Tarefas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWZhc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vostro5471/Documents/KippaProject/pmv-ads-2024-1-e2-ProjKipa/src/Views/TarefaView/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWZhVmlld1xEZWxldGUuY3NodG1s
+[C:/Users/vostro5471/Documents/KippaProject/pmv-ads-2024-1-e2-ProjKipa/src/Views/Tarefas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWZhc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vostro5471/Documents/KippaProject/pmv-ads-2024-1-e2-ProjKipa/src/Views/TarefaView/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWZhVmlld1xEZXRhaWxzLmNzaHRtbA==
+[C:/Users/vostro5471/Documents/KippaProject/pmv-ads-2024-1-e2-ProjKipa/src/Views/Tarefas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWZhc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vostro5471/Documents/KippaProject/pmv-ads-2024-1-e2-ProjKipa/src/Views/TarefaView/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWZhVmlld1xFZGl0LmNzaHRtbA==
+[C:/Users/vostro5471/Documents/KippaProject/pmv-ads-2024-1-e2-ProjKipa/src/Views/Tarefas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWZhc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vostro5471/Documents/KippaProject/pmv-ads-2024-1-e2-ProjKipa/src/Views/TarefaView/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWZhVmlld1xJbmRleC5jc2h0bWw=
+[C:/Users/vostro5471/Documents/KippaProject/pmv-ads-2024-1-e2-ProjKipa/src/Views/Tarefas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWZhc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vostro5471/Documents/KippaProject/pmv-ads-2024-1-e2-ProjKipa/src/Views/Usuarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vostro5471/Documents/KippaProject/pmv-ads-2024-1-e2-ProjKipa/src/Views/Usuarios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vostro5471/Documents/KippaProject/pmv-ads-2024-1-e2-ProjKipa/src/Views/Usuarios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vostro5471/Documents/KippaProject/pmv-ads-2024-1-e2-ProjKipa/src/Views/Usuarios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vostro5471/Documents/KippaProject/pmv-ads-2024-1-e2-ProjKipa/src/Views/Usuarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/vostro5471/Documents/KippaProject/pmv-ads-2024-1-e2-ProjKipa/src/Views/_ViewImports.cshtml]
@@ -89,6 +105,10 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/vostro5471/Documents/KippaProject/pmv-ads-2024-1-e2-ProjKipa/src/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vostro5471/Documents/KippaProject/pmv-ads-2024-1-e2-ProjKipa/src/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-2t1iifpwp0
 
 [C:/Users/vostro5471/Documents/KippaProject/pmv-ads-2024-1-e2-ProjKipa/src/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
