@@ -1,0 +1,54 @@
+﻿@model Kippa.Models.Lembrete
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Lembrete</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="IdLembrete" />
+            <div class="form-group">
+                <label asp-for="UsuarioId" class="control-label"></label>
+                <select asp-for="UsuarioId" class="form-control" asp-items="ViewBag.UsuarioId"></select>
+                <span asp-validation-for="UsuarioId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NomeLembrete" class="control-label"></label>
+                <input asp-for="NomeLembrete" class="form-control" />
+                <span asp-validation-for="NomeLembrete" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DataLembrete" class="control-label"></label>
+                <input asp-for="DataLembrete" class="form-control" />
+                <span asp-validation-for="DataLembrete" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HoraLembrete" class="control-label"></label>
+                <input asp-for="HoraLembrete" class="form-control" />
+                <span asp-validation-for="HoraLembrete" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Notificacoes" class="control-label"></label>
+                <input asp-for="Notificacoes" class="form-control" />
+                <span asp-validation-for="Notificacoes" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
