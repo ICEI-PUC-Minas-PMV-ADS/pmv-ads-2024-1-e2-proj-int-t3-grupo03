@@ -1,6 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
-using Kippa.Data;
+﻿using Kippa.Models;
+using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<KippaContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("KippaContext") ?? throw new InvalidOperationException("Connection string 'KippaContext' not found.")));

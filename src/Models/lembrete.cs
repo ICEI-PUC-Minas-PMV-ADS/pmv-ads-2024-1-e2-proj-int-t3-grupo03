@@ -1,13 +1,21 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.Collections.Generic;
 
-namespace Kippa.Models
+namespace Kippa.Models;
+
+public partial class Lembrete
 {
-    public class lembrete
-    {
-        [Key]
-        public int Codigo { get; set; }
-        public string Nome { get; set;}
-        public string Lembrete { get; set; }
-        public string Email { get; set;}
-    }
+    public int IdLembrete { get; set; }
+
+    public int? UsuarioId { get; set; }
+
+    public string? NomeLembrete { get; set; }
+
+    public DateTime? DataLembrete { get; set; }
+
+    public TimeOnly? HoraLembrete { get; set; }
+
+    public int? Notificacoes { get; set; }
+
+    public virtual Usuario? Usuario { get; set; }
 }
