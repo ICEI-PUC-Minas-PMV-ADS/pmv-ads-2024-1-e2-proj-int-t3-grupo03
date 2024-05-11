@@ -6,16 +6,38 @@
 
 <h1>Create</h1>
 
-<h4>Tarefa</h4>
-<hr />
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <div class="container-fluid">
+            <nav class="nav">
+                <ul>
+                    <li><a href="Index">Tarefas</a>    
+                </ul>
+           
+            </nav>
+      
+        </div>
+    <div class="btnholder">
+        <a asp-action="Index"> <div class="btn"> Back to List  </div>  </a>
+    </div>
+    </nav>
+
+@* <h4>Tarefa</h4> *@
+
+
+@* <div class="btnholder">
+    <a href="/Tarefas/Create"> <div class="btn"> Criar </div> </a>
+    @* <a href="./#"> <div class="btn"> Remover </div> </a>
+    <a href="./#"> <div class="btn"> Editar </div> </a> *@
+
+ 
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
+            @* <div class="form-group">
                 <label asp-for="UsuarioId" class="control-label"></label>
                 <select asp-for="UsuarioId" class ="form-control" asp-items="ViewBag.UsuarioId"></select>
-            </div>
+            </div> *@
             <div class="form-group">
                 <label asp-for="DataTarefa" class="control-label"></label>
                 <input asp-for="DataTarefa" class="form-control" />
@@ -38,9 +60,11 @@
     </div>
 </div>
 
-<div>
+
+
+@* <div>
     <a asp-action="Index">Back to List</a>
-</div>
+</div> *@
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

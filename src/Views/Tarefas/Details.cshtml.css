@@ -1,0 +1,18 @@
+﻿
+dl {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Estilo das células da tabela */
+dt {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Estilo das células do cabeçalho da tabela */
+th {
+    background-color: #f2f2f2;
+}

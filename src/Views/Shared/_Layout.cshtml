@@ -12,24 +12,36 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Kippa</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+               @*  <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Kippa</a> *@
+                @* <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                </button> *@
+                <nav class="nav">
+                    <ul>
+                        <li><a style="font-weight:800; font-size: 2em;" href="telainicial.cshtml">KIPA</a>
+                        <li><a href="Tarefas/Index">Tarefas</a>
+                        <li><a href="Lembretes/Index">Lembretes</a>
+                        <li><a href="">Configurações</a>
+
+
+                    </ul>
+
+                    <ul class="rul">
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Cadastre-se</a></li>
+                    </ul>
+                </nav>
+              @*   <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="Index" asp-controller="lembretesController" asp-action="Index">lembretes</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Lembretes" asp-action="Index">Lembretes</a>
                         </li>
                     </ul>
-                </div>
+                </div> *@
             </div>
         </nav>
     </header>
@@ -41,7 +53,9 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2024 - Kippa - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            @* &copy; 2024 - Kippa - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a> *@
+            <a href="#">Quem Somos Nós?</a> <br /> <br />
+            <a href="#">Contato</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
