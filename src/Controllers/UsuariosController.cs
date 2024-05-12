@@ -8,9 +8,11 @@ using Microsoft.EntityFrameworkCore;
 using Kippa.Models;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Kippa.Controllers
 {
+ 
     public class UsuariosController : Controller
     {
         private readonly KippaContext _context;
@@ -25,11 +27,12 @@ namespace Kippa.Controllers
         {
             return View(await _context.Usuarios.ToListAsync());
         }
-
+ 
         public async Task<IActionResult> FormLogin()
         {
             return View();
         }
+      
         public async Task<IActionResult> Login(Usuario usuario)
         {
             var dados =  _context.Usuarios.FirstOrDefault(u => u.Nome == usuario.Nome);

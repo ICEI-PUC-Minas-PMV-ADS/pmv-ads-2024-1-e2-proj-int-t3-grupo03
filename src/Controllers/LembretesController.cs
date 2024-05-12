@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Kippa.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Kippa.Controllers
 {
+   
     public class LembretesController : Controller
     {
         private readonly KippaContext _context;
