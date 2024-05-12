@@ -19,24 +19,31 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Remove="Views\Home\Index.cshtml.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Remove="Views\Home\Index.cshtml.css" />
     <None Remove="Views\Lembretes\Create.cshtml.css" />
+    <None Remove="Views\Lembretes\Delete.cshtml.css" />
+    <None Remove="Views\Lembretes\Index.cshtml.css" />
     <None Remove="Views\Tarefas\Create.cshtml.css" />
+    <None Remove="Views\Tarefas\Delete.cshtml.css" />
     <None Remove="Views\Tarefas\Details.cshtml.css" />
     <None Remove="Views\Tarefas\Index.cshtml.css" />
+    <None Remove="Views\Usuarios\Create.cshtml.css" />
+    <None Remove="Views\Usuarios\FormLogin.cshtml.css" />
+    <None Remove="Views\Usuarios\Index.cshtml.css" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="Views\Home\Index.cshtml.cs" />
     <Content Include="Views\Home\Index.cshtml.css" />
     <Content Include="Views\Lembretes\Create.cshtml.css" />
+    <Content Include="Views\Lembretes\Delete.cshtml.css" />
+    <Content Include="Views\Lembretes\Index.cshtml.css" />
     <Content Include="Views\Tarefas\Create.cshtml.css" />
+    <Content Include="Views\Tarefas\Delete.cshtml.css" />
     <Content Include="Views\Tarefas\Details.cshtml.css" />
     <Content Include="Views\Tarefas\Index.cshtml.css" />
+    <Content Include="Views\Usuarios\Create.cshtml.css" />
+    <Content Include="Views\Usuarios\FormLogin.cshtml.css" />
+    <Content Include="Views\Usuarios\Index.cshtml.css" />
   </ItemGroup>
 
   <ItemGroup>
