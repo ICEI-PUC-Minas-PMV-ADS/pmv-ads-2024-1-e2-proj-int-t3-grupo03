@@ -28,8 +28,24 @@
                     </ul>
 
                     <ul class="rul">
-                        <li><a href="#">Login</a></li>
-                        <li><a href="#">Cadastre-se</a></li>
+                        <li><a href="Usuarios/">Login</a></li>
+                        <li><a href="Usuarios/Create">Cadastre-se</a></li>
+                    </ul>
+                    <ul>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item">
+                                Olá, @User.Identity.Name <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="Logout"> Sair</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios"  asp-action="FormLogin">Login</a>
+                            </li>
+                        }
+
+
                     </ul>
                 </nav>
               @*   <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
