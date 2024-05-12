@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "I8oUoWK8DNLDOZefrpBLoAwMdcc43Oxl48X1L9kZtd36S/R0/PV6bysKYPTs+oaffKJRnXNWrnEi5xFvq/Z9dA==",
+  "dgSpecHash": "qmMQUvlF3EhLvygTai1X2EZD3Z3AJxXjWcORg7zWkeJ/OR1+Ibn+BmTHu5glQ8TBzb4K4K06C1oZ4UKkGplztg==",
   "success": true,
   "projectFilePath": "C:\\Users\\vostro5471\\Documents\\KippaProject\\pmv-ads-2024-1-e2-ProjKipa\\src\\Kippa.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vostro5471\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\vostro5471\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\vostro5471\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\vostro5471\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\vostro5471\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\vostro5471\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
