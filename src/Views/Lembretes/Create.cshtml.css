@@ -1,52 +1,33 @@
-﻿@model Kippa.Models.Lembrete
-
-@{
-    ViewData["Title"] = "Create";
+﻿.form-container {
+    width: 300px; /* largura do formulário */
+    margin: 0 auto; /* centraliza horizontalmente */
+    border: 1px solid #ccc; /* borda sólida com cor cinza */
+    padding: 20px; /* espaço interno */
+    border-radius: 5px; /* bordas arredondadas */
 }
 
-<h1>Create</h1>
+    /* Estilo para os campos do formulário */
+    .form-container input[type=text],
+    .form-container input[type=password] {
+        width: 100%; /* preenche a largura do contêiner */
+        padding: 10px; /* espaço interno */
+        margin: 8px; /* margem superior e inferior */
+        box-sizing: border-box; /* inclui padding e borda no tamanho total */
+    }
 
-<h4>Lembrete</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="UsuarioId" class="control-label"></label>
-                <select asp-for="UsuarioId" class ="form-control" asp-items="ViewBag.UsuarioId"></select>
-            </div>
-            <div class="form-group">
-                <label asp-for="NomeLembrete" class="control-label"></label>
-                <input asp-for="NomeLembrete" class="form-control" />
-                <span asp-validation-for="NomeLembrete" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="DataLembrete" class="control-label"></label>
-                <input asp-for="DataLembrete" class="form-control" />
-                <span asp-validation-for="DataLembrete" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="HoraLembrete" class="control-label"></label>
-                <input asp-for="HoraLembrete" class="form-control" />
-                <span asp-validation-for="HoraLembrete" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Notificacoes" class="control-label"></label>
-                <input asp-for="Notificacoes" class="form-control" />
-                <span asp-validation-for="Notificacoes" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
-</div>
+    /* Estilo para o botão do formulário */
+    .form-container button {
+        background-color: #4CAF50; /* cor de fundo verde */
+        color: white; /* cor do texto branco */
+        padding: 15px 20px; /* espaço interno */
+        margin: 8px 0; /* margem superior e inferior */
+        border: none; /* remove a borda */
+        border-radius: 4px; /* bordas arredondadas */
+        cursor: pointer; /* cursor ao passar sobre o botão */
+        width: 100%; /* preenche a largura do contêiner */
+    }
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}
+        /* Estilo para o botão do formulário ao passar o mouse */
+        .form-container button:hover {
+            background-color: #45a049; /* cor de fundo escura ao passar o mouse */
+        }
