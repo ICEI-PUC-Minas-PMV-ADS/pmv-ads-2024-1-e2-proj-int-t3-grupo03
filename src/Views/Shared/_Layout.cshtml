@@ -19,45 +19,41 @@
                 </button> *@
                 <nav class="nav">
                     <ul>
-                        <li><a style="font-weight:800; font-size: 2em;" href="telainicial.cshtml">KIPA</a>
-                        <li><a href="Tarefas/Index">Tarefas</a>
-                        <li><a href="Lembretes/Index">Lembretes</a>
-                        <li><a href="">Configurações</a>
-
-
-                    </ul>
-
-                    <ul class="rul">
-                        <li><a href="Usuarios/">Login</a></li>
-                        <li><a href="Usuarios/Create">Cadastre-se</a></li>
-                    </ul>
-                    <ul>
                         @if (User.Identity.IsAuthenticated)
-                        {
-                            <li class="nav-item">
-                                Olá, @User.Identity.Name <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="Logout"> Sair</a>
-                            </li>
+                        {                           
+                            <ul>
+                                <li><a style="font-weight:800; font-size: 2em;" href="telainicial.cshtml">KIPA</a>
+                                <li class="nav-item">
+                                    <a class="title"> Olá, @User.Identity.Name </a>  @* <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="Logout"> Sair</a> *@
+
+                                </li>
+                               
+                                <li><a href="Tarefas/Index">Tarefas</a>
+                                <li><a href="Lembretes/Index">Lembretes</a>
+                                <li><a href="Usuarios/Index">Configurações</a>
+                               
+                                <li> <a href="/">Sair</a> </li>
+
+
+                            </ul>
                         }
                         else
                         {
-                            <li class="nav-item">
+                            <ul class="rul">
+                               @*  <li class="rul" class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="FormLogin">Login</a>
+                                </li> *@
+                                <li><a href="Usuarios/FormLogin">Login</a></li>
+                                <li><a href="Usuarios/Create">Cadastre-se</a></li>
+                            </ul>
+                           @*  <li class="rul" class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios"  asp-action="FormLogin">Login</a>
-                            </li>
+                            </li> *@
                         }
 
 
                     </ul>
                 </nav>
-              @*   <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Lembretes" asp-action="Index">Lembretes</a>
-                        </li>
-                    </ul>
-                </div> *@
             </div>
         </nav>
     </header>

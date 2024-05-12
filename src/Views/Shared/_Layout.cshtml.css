@@ -113,3 +113,9 @@ footer {
         color: white;
     }
 
+.title {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    font-size: 24px; /* Tamanho da fonte */
+    color: white; /* Cor do texto */
+   
+}
