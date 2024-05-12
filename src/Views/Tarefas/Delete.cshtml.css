@@ -1,0 +1,24 @@
+﻿.btnholder {
+    width: 65%;
+    height: 2em;
+    display: flex;
+    margin: 0 auto;
+    top: 15vh;
+    justify-content: space-between;
+}
+
+.btn {
+    background-color: hsl(203, 100%, 46%);
+    border-radius: 10% / 100%;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+}
+
+.btnholder a {
+    text-decoration: none;
+    color: white;
+    width: 30%;
+}
