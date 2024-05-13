@@ -47,7 +47,7 @@
 | *Caso de Teste* 	| *CT-09 – Criação de Rotinas* 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-008 - O site deve permitir a criação, deleção e edição de rotinas |
-|Registro de evidência | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa/assets/127974486/834567c9-80bc-48f1-83d5-9f8c8ff97818 |
+|Registro de evidência | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa/blob/main/docs/vids/criarLembretes.mp4 |
 
 | *Caso de Teste* 	| *CT-10 – Edição de Rotinas* 	|
 |:---:	|:---:	|
