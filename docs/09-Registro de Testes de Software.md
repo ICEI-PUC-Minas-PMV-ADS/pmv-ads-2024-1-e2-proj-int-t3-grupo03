@@ -1,22 +1,84 @@
+
 # Registro de Testes de Software
 
 <span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
 
-Para cada caso de teste definido no Plano de Testes de Software, realize o registro das evidências dos testes feitos na aplicação pela equipe, que comprovem que o critério de êxito foi alcançado (ou não!!!). Para isso, utilize uma ferramenta de captura de tela que mostre cada um dos casos de teste definidos (obs.: cada caso de teste deverá possuir um vídeo do tipo _screencast_ para caracterizar uma evidência do referido caso).
-
-| **Caso de Teste** 	| **CT-01 – Cadastrar perfil** 	|
+| *Caso de Teste* 	| *CT-01 – Cadastro do usuário* 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-00X - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. |
-|Registro de evidência | www.teste.com.br/drive/ct-01 |
+|	Requisito Associado 	| RF-001 - O site deve permitir o cadastro do usuário |
+|Registro de evidência | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa/assets/127974486/b6f1045b-ef84-4de1-992e-7fc77189a724 |
 
-| **Caso de Teste** 	| **CT-02 – Realizar login** 	|
+| *Caso de Teste* 	| *CT-02 – Login do usuário* 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-00Y - A aplicação deve permitir que um usuário previamente cadastrado faça login |
-|Registro de evidência | www.teste.com.br/drive/ct-02 |
+|	Requisito Associado 	| RF-002 - O site deve permitir o login do usuário |
+|Registro de evidência | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa/assets/127974486/0bd53571-bd44-4dd9-931e-bec078effb46 |
 
-## Avaliação
+| *Caso de Teste* 	| *CT-03 – Modificação dos dados do usuário* 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-003 - O site deve permitir a modificação de dados do usuário |
+|Registro de evidência | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa/assets/127974486/acb9f3cf-dbd0-4b0d-954e-b4c03ee1449b |
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+| *Caso de Teste* 	| *CT-04 – Criação de lembretes* 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-006 - O site deve permitir a criação, deleção e edição de dados dos lembretes |
+|Registro de evidência | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa/assets/127974486/c19b30b5-cbdc-4817-ab0e-b533268f0251 |
 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+| *Caso de Teste* 	| *CT-05 – Edição de lembretes* 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-006 - O site deve permitir a criação, deleção e edição de dados dos lembretes |
+|Registro de evidência | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa/assets/127974486/4e7fd994-e427-45b5-a254-b871f2b4b152 |
+
+
+| *Caso de Teste* 	| *CT-06 – Deletar lembretes* 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-006 - O site deve permitir a criação, deleção e edição de dados dos lembretes |
+|Registro de evidência  | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa/assets/127974486/7c2e1329-084d-44bb-9bb3-be3b5fbedfd0 |
+
+| *Caso de Teste* 	| *CT-07 – Visualizar Rotinas* 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-007 - O site deve conter uma página que exibe todos os lembretes e rotinas definidos |
+|Registro de evidência | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa/assets/127974486/c858ba9c-b94b-4d8f-b8cc-58bffe080788 |
+
+| *Caso de Teste* 	| *CT-08 – Visualizar Lembretes* 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-007 - O site deve conter uma página que exibe todos os lembretes e rotinas definidos |
+|Registro de evidência | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa/assets/127974486/439ea1c3-169b-4d53-beb2-20d079fce5d1 |
+
+| *Caso de Teste* 	| *CT-09 – Criação de Rotinas* 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-008 - O site deve permitir a criação, deleção e edição de rotinas |
+|Registro de evidência | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa/blob/main/docs/vids/criarLembretes.mp4 |
+
+| *Caso de Teste* 	| *CT-10 – Edição de Rotinas* 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-008 - O site deve permitir a criação, deleção e edição de rotinas |
+|Registro de evidência | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa/assets/127974486/b9abe2f6-9688-4b85-976f-95979a312477 |
+
+| *Caso de Teste* 	| *CT-11 – Deletar Rotinas* 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-008 - O site deve permitir a criação, deleção e edição de rotinas |
+|Registro de evidência | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa/assets/127974486/5313d511-b4b9-4ad9-af07-9ff115798d6f |
+
+| *Caso de Teste* 	| *CT-12 – Fazer upload de foto* 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-009 - O site deve permitir o upload de fotos para a conta do usuário |
+|Registro de evidência |  |
+
+| *Caso de Teste* 	| *CT-13 – Criar alarme de lembretes* 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-010 - O site deve permitir a definição de alarme para lembretes |
+|Registro de evidência |  |
+
+| *Caso de Teste* 	| *CT-14 – Definição de alarmes para lembretes* 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-011 - O site deve notificar o usuário depois do tempo definido em um lembrete ou rotina acabar |
+|Registro de evidência |  |
+
+| *Caso de Teste* 	| *CT-15 – Definição de classificações para lembretes* 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-012 - O site deve separar lembretes em seções diferentes por meio de classificações dadas pelo usuário |
+|Registro de evidência |  |
+
+# Avaliação
+A partir do que foi observado nos registros de evidência, concluímos que o sistema está funcional e atingiu nossos objetivos, então, nenhuma ação é necessária.
+Nosso plano a partir de agora será polir o que já temos no sistema, como, por exemplo, mudar a aparência do template para estar em concordância com o wireframe, feito no Figma, e implementar certas funcionalidades de prioridade mais baixa, tais como as notificações, as quais foram mencionadas nos requisitos.

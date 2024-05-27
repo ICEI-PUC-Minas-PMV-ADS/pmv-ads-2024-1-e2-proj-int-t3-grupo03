@@ -1,4 +1,12 @@
-﻿
+﻿.btnholder {
+    width: 65%;
+    height: 2em;
+    display: flex;
+    margin: 0 auto;
+    top: 15vh;
+    justify-content: space-between;
+}
+
 .createnew {
     background-color: hsl(203, 100%, 46%);
     border-radius: 10% / 100%;
@@ -14,10 +22,10 @@
 }
 
     .createnew * {
-        text-decoration: none;
-        color: white;
+    text-decoration: none;
+    color: white;
         font-weight: 200;
-    }
+}
 
 .lembcont {
     display: grid;

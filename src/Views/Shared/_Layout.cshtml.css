@@ -128,3 +128,9 @@ nav ul li {
     box-shadow: 0 4px 10px rgba(10, 20, 30, .4);
 }
 
+.title {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    font-size: 24px; /* Tamanho da fonte */
+    color: white; /* Cor do texto */
+   
+}

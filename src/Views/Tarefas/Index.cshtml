@@ -18,10 +18,7 @@
 <table class="table">
     <thead>
         <tr>
-            <th>
-                Usuário
-               @*  @Html.DisplayNameFor(model => model.Usuario) *@
-            </th>
+           
             <th>
                 Data da Tarefa
                @*  @Html.DisplayNameFor(model => model.DataTarefa) *@
@@ -40,9 +37,7 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Usuario.IdUsuario)
-                </td>
+            
             <td>
                 @Html.DisplayFor(modelItem => item.DataTarefa)
             </td>

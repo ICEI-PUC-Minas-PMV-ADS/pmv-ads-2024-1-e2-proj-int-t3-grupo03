@@ -1,12 +1,29 @@
 ﻿using Kippa.Models;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
+
 builder.Services.AddDbContext<KippaContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("KippaContext") ?? throw new InvalidOperationException("Connection string 'KippaContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+builder.Services.Configure<CookiePolicyOptions>(options =>
+{
+    options.CheckConsentNeeded = context => true;
+    options.MinimumSameSitePolicy = SameSiteMode.None;
+});
+
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        options.AccessDeniedPath = "/Usuarios/AccessDenied/";
+        options.LoginPath = "/Usuarios/Login";
+
+
+    });
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -22,6 +39,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

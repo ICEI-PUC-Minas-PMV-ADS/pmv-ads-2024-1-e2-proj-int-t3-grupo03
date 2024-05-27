@@ -38,16 +38,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/source/repos/KipaBD/src/Views/Tarefas/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWZhc1xEZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/PC/source/repos/KipaBD/src/Views/Tarefas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWZhc1xFZGl0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/PC/source/repos/KipaBD/src/Views/Usuarios/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/PC/source/repos/KipaBD/src/Views/Usuarios/Delete.cshtml]
@@ -60,10 +52,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/PC/source/repos/KipaBD/src/Views/Usuarios/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/PC/source/repos/KipaBD/src/Views/Usuarios/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/PC/source/repos/KipaBD/src/Views/_ViewImports.cshtml]
@@ -106,6 +94,10 @@ build_metadata.AdditionalFiles.CssScope = b-2y5pnliwmz
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWZhc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-n5po9ahe8u
 
+[C:/Users/PC/source/repos/KipaBD/src/Views/Tarefas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWZhc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-rlmkm1hx37
+
 [C:/Users/PC/source/repos/KipaBD/src/Views/Tarefas/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWZhc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-faxxr5p1et
@@ -113,3 +105,15 @@ build_metadata.AdditionalFiles.CssScope = b-faxxr5p1et
 [C:/Users/PC/source/repos/KipaBD/src/Views/Tarefas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWZhc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-ldbneclxvv
+
+[C:/Users/PC/source/repos/KipaBD/src/Views/Usuarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-ymqkmxmzyt
+
+[C:/Users/PC/source/repos/KipaBD/src/Views/Usuarios/FormLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRm9ybUxvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-3ihdue1dbh
+
+[C:/Users/PC/source/repos/KipaBD/src/Views/Usuarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-e3nomfunq4

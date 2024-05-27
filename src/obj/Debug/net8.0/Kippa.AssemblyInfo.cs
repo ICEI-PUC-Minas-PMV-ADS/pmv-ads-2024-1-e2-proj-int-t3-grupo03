@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("859ce9b5-c9bd-4201-848e-f236f98c66a6")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kippa")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+936a21beed428d9ba8092fa87651b0d55a1c45e8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d07c5cd0af51cc97983725e0602c99f63ebcdb48")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kippa")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kippa")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
