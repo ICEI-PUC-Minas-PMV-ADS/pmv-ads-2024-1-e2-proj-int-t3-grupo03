@@ -5,44 +5,81 @@
 }
 
 <h1>Details</h1>
+<div class="form">
+<div>
+        <dl class="row">
+            <dt class = "col-sm-2">
+                <p style="font-weight: 500; font-size:2em;"> Nome do Lembrete </p>
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.NomeLembrete)
+            </dd>
+            <dt class = "col-sm-2">
+                <p style="font-size:1.5em; font-weight: 400;"> Data do Lembrete </p>
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.DataLembrete)
+            </dd>
+            <dt class = "col-sm-2">
+                <p> Notificações </p>
+            </dt>
+            <dd class = "col-sm-10">
 
-<div>
-    <h4>Lembrete</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.NomeLembrete)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.NomeLembrete)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.DataLembrete)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.DataLembrete)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.HoraLembrete)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.HoraLembrete)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Notificacoes)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Notificacoes)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Usuario)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Usuario.IdUsuario)
-        </dd>
-    </dl>
+                    @Html.DisplayFor(model => model.Notificacoes)
+
+            </dd>
+            <dt class = "col-sm-2">
+                <p> ID do Usuário </p>
+            </dt>
+
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.Usuario.IdUsuario)
+            </dd>
+        </dl>
+    </div>
+    <div>
+        <a asp-action="Edit" asp-route-id="@Model?.IdLembrete" style="display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background-color: hsl(203, 100%, 46%);
+  border: 1px solid transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;">Editar</a> |
+        <a asp-action="Index" style="display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background-color: hsl(203, 100%, 46%);
+  border: 1px solid transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;">Voltar à Lista</a>
+    </div>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.IdLembrete">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+

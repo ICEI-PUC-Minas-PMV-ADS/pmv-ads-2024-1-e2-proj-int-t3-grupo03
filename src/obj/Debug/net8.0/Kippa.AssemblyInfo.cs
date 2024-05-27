@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kippa")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb95b44b21b254ac639480b4576720a7fd7cf7ee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+936a21beed428d9ba8092fa87651b0d55a1c45e8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kippa")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kippa")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

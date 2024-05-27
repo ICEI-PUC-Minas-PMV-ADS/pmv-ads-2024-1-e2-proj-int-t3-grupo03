@@ -1,14 +1,3 @@
-﻿################################################################################
-# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
-################################################################################
-
-/.vs/pmv-ads-2024-1-e2-ProjKipa/FileContentIndex
-/src/.vs/Kippa/FileContentIndex/2683b1eb-128a-4228-a78d-575dbf5bfe02.vsidx
-/src/.vs
-/.vs/slnx.sqlite
-/.vs
-/src/obj
-
 # Created by https://www.toptal.com/developers/gitignore/api/aspnetcore,visualstudio
 # Edit at https://www.toptal.com/developers/gitignore?templates=aspnetcore,visualstudio
 

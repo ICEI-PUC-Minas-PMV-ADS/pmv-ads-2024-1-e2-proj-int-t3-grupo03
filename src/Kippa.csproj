@@ -7,12 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove=".gitignore\**" />
     <Compile Remove="Views\LembreteView\**" />
     <Compile Remove="Views\TarefaView\**" />
+    <Content Remove=".gitignore\**" />
     <Content Remove="Views\LembreteView\**" />
     <Content Remove="Views\TarefaView\**" />
+    <EmbeddedResource Remove=".gitignore\**" />
     <EmbeddedResource Remove="Views\LembreteView\**" />
     <EmbeddedResource Remove="Views\TarefaView\**" />
+    <None Remove=".gitignore\**" />
     <None Remove="Views\LembreteView\**" />
     <None Remove="Views\TarefaView\**" />
   </ItemGroup>
@@ -23,29 +27,36 @@
 
   <ItemGroup>
     <None Remove="Views\Home\Index.cshtml.css" />
+    <None Remove="Views\Lembretes\Create.cshtml.css" />
+    <None Remove="Views\Lembretes\Delete.cshtml.css" />
+    <None Remove="Views\Lembretes\Details.cshtml.css" />
+    <None Remove="Views\Lembretes\Edit.cshtml.css" />
+    <None Remove="Views\Lembretes\Index.cshtml.css" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="Views\Home\Index.cshtml.cs" />
     <Content Include="Views\Home\Index.cshtml.css" />
+    <Content Include="Views\Lembretes\Delete.cshtml.css" />
+    <Content Include="Views\Lembretes\Details.cshtml.css" />
+    <Content Include="Views\Lembretes\Edit.cshtml.css" />
+    <Content Include="Views\Lembretes\Create.cshtml.css" />
+    <Content Include="Views\Lembretes\Index.cshtml.css" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.4">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.4">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.2" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include=".gitignore\" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,42 @@
+﻿.form {
+    display: flex;
+    background-color: #6EC8FA;
+    width: 35vw;
+    height: 55vh;
+    position: relative;
+    margin: 0 auto;
+    top: 4.5vh;
+    overflow: scroll;
+    flex-flow:column;
+    overflow-x: hidden;
+}
+
+.form-group {
+    margin-top: 3em;
+}
+
+p {
+    margin-top: 2em;
+    margin-bottom: 1px;
+}
+
+.col-md-4 {
+    width: 75% !important;
+    margin: 0 auto !important;
+    overflow-x: hidden;
+}
+
+.col-sm-2 {
+    margin-top: 3em;
+    font-weight: 500;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.col-sm-10 {
+    background-color: white;
+    border-radius: 5%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: 0 auto;
+}

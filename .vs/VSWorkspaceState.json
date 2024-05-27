@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src"
+    "\\src",
+    "\\src\\Models",
+    "\\src\\Views",
+    "\\src\\Views\\Lembretes"
   ],
+  "SelectedNode": "\\src\\Kippa.sln",
   "PreviewInSolutionExplorer": false
 }
