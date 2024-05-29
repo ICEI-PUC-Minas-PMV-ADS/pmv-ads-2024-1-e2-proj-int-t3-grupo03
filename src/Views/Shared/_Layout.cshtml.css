@@ -42,7 +42,7 @@ nav {
 footer {
     margin: 0 auto;
     background: hsl(203, 100%, 46%);
-    position: absolute;
+    position: fixed;
     bottom: 0;
     color: white;
     width: 99vw;

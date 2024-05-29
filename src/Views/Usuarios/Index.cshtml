@@ -14,58 +14,52 @@
  
 </p>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Email)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Nome)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DataNascimento)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Profissao)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Objetivo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DataCadastro)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
 @foreach (var item in Model) {
-        <tr>
-            <td>
+                <div class="sidebar">
+                    <p class="listitem">
+                        @Html.DisplayNameFor(model => model.Email)
+                    </p>
+                <p class="listitem">
+                        @Html.DisplayNameFor(model => model.Nome)
+                    </p>
+                <p class="listitem">
+                        @Html.DisplayNameFor(model => model.DataNascimento)
+                    </p>
+                <p class="listitem">
+                        @Html.DisplayNameFor(model => model.Profissao)
+                    </p>
+                <p class="listitem">
+                        @Html.DisplayNameFor(model => model.Objetivo)
+                    </p>
+                <p class="listitem">
+                        @Html.DisplayNameFor(model => model.DataCadastro)
+                    </p>
+                </div>
+                <div class="infobox">
+            <div class="info">
                 @Html.DisplayFor(modelItem => item.Email)
-            </td>
-            <td>
+            </div>
+            <div class="info">
                 @Html.DisplayFor(modelItem => item.Nome)
-            </td>
-
-            <td>
+            </div>
+            <div class="info">
                 @Html.DisplayFor(modelItem => item.DataNascimento)
-            </td>
-            <td>
+            </div>
+            <div class="info">
                 @Html.DisplayFor(modelItem => item.Profissao)
-            </td>
-            <td>
+            </div>
+            <div class="info">
                 @Html.DisplayFor(modelItem => item.Objetivo)
-            </td>
-            <td>
+            </div>
+            <div class="info">
                 @Html.DisplayFor(modelItem => item.DataCadastro)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.IdUsuario">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.IdUsuario">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdUsuario">Delete</a>
-            </td>
-        </tr>
+            </div>
+            </div>
+            <div>
+        <a asp-action="Edit" asp-route-id="@item.IdUsuario">Edit</a>
+        <a asp-action="Details" asp-route-id="@item.IdUsuario">Details</a>
+        <a asp-action="Delete" asp-route-id="@item.IdUsuario">Delete</a>
+            </div>
 }
     </tbody>
 </table>
