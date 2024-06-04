@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Esse arquivo é usado pelo processo de publicação/pacote do seu projeto Web. É possível personalizar o comportamento deste processo
+ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6mwLo1/m2ECBvsfzdaCFGQAAAAACAAAAAAAQZgAAAAEAACAAAABofec7nONPsAU0ukAXenuzzXZDzqBQIMejVkEztIDKkAAAAAAOgAAAAAIAACAAAAD0P9dv1VCyYqDJJZ0PqY3WXuEvHhYzj6x10m5He4FQkoAAAADEca5chYfaBTfQ9QN76uwNPZfKmj/sPD4RRsmJJVl18qV9UNE+qlbXnsH5CpX037afS8xDrW93tYAfFPkKAeCVab0KOWnnVDlpSDh0aj9qsNAK/iFpTTfrUW/mxm8lyAe0mkvDlJsNwZynTMJrj0FxOOxFVLUUJQ4PPmLYUU2/AEAAAAACLVIy/rZICDGTz21fobByuW2QCZTkeknoQZSvH1vhL+vYRC3aLk6/Z4LmOPcVqq+uOcjHL0haBUIiIDQFwnGa</EncryptedPassword>
+    <History>True|2024-06-02T12:33:39.7924087Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="KippaContext">
+      <Value>Data Source=kippadbserver.database.windows.net,1433%3bInitial Catalog=Kippa_db%3bUser ID=KippaBd%3bPassword="CK2=4o39"</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Kippa.Models.KippaContext">
+      <Value>Data Source=kippadbserver.database.windows.net,1433%3bInitial Catalog=Kippa_db%3bUser ID=KippaBd%3bPassword="CK2=4o39"</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
