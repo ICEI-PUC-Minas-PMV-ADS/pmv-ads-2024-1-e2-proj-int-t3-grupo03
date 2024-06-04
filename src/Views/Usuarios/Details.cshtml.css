@@ -7,7 +7,7 @@
     margin: 0 auto;
     top: 10vh;
     overflow: scroll;
-    flex-flow:column;
+    flex-flow: column;
     overflow-x: hidden;
 }
 

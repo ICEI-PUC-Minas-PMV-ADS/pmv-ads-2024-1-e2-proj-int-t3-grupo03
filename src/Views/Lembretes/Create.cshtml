@@ -4,42 +4,36 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<div class="form">
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
-<h4>Lembrete</h4>
-<hr />
-<div class="row">
-    <div form-container>
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="UsuarioId" class="control-label"></label>
-                <select asp-for="UsuarioId" class ="form-control" asp-items="ViewBag.UsuarioId"></select>
-            </div>
-            <div class="form-group">
-                <label asp-for="NomeLembrete" class="control-label"></label>
-                <input asp-for="NomeLembrete" class="form-control" />
-                <span asp-validation-for="NomeLembrete" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="DataLembrete" class="control-label"></label>
-                <input asp-for="DataLembrete" class="form-control" />
-                <span asp-validation-for="DataLembrete" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="HoraLembrete" class="control-label"></label>
-                <input asp-for="HoraLembrete" class="form-control" />
-                <span asp-validation-for="HoraLembrete" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Notificacoes" class="control-label"></label>
-                <input asp-for="Notificacoes" class="form-control" />
-                <span asp-validation-for="Notificacoes" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
+                <div class="form-group">
+                    <label asp-for="NomeLembrete" class="control-label" style="font-size:2em; font-weight: 500;">Nome do Lembrete</label>
+                    <input asp-for="NomeLembrete" class="form-control" style="border-radius:4%/50%"/>
+                    <span asp-validation-for="NomeLembrete" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="DataLembrete" class="control-label" style="font-size:1.5em; font-weight: 400;">Data do Lembrete</label>
+                    <input asp-for="DataLembrete" class="form-control" style="border-radius:4%/50% width: 33%" />
+                    <span asp-validation-for="DataLembrete" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Notificacoes" class="control-label">Notificações</label>
+                    <input asp-for="Notificacoes" class="form-control" style="border-radius:4%/50% width: 33%" />
+                    <span asp-validation-for="Notificacoes" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="UsuarioId" class="control-label">ID do Usuário</label>
+                    <select asp-for="UsuarioId" class="form-control" asp-items="ViewBag.UsuarioId" style="border-radius:4%/50% width: 33%"></select>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Criar" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
     </div>
 </div>
 

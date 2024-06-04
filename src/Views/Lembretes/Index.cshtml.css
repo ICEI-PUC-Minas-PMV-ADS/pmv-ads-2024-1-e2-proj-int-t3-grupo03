@@ -7,7 +7,7 @@
     justify-content: space-between;
 }
 
-.btn {
+.createnew {
     background-color: hsl(203, 100%, 46%);
     border-radius: 10% / 100%;
     cursor: pointer;
@@ -15,27 +15,66 @@
     font-size: 1.5em;
     text-decoration: none;
     color: white;
+    width: 33%;
+    margin: 0 auto;
+    top: 5vh;
+    position: relative;
 }
 
-.btnholder a {
+    .createnew * {
     text-decoration: none;
     color: white;
-    width: 30%;
+        font-weight: 200;
 }
-table {
+
+.lembcont {
+    display: grid;
+    background-color: #6EC8FA;
+    width: 65vw;
+    height: 55vh;
+    position: relative;
+    margin: 0 auto;
+    top: 10vh;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 25% 25% 25%;
+    gap: 5%;
+    justify-content: center;
+    align-content: center;
+    overflow: scroll;
+}
+
+.lembreteitem {
+    background-color: #777;
+    color: white;
     width: 100%;
-    border-collapse: collapse;
-    border-spacing: 0;
+    height: 120px;
+    font-size: 16px;
+    border-radius: 3%;
+    padding-top: 3%;
+    overflow: scroll;
 }
 
-/* Estilo das células da tabela */
-th, td {
-    padding: 8px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
+.edd {
+    top: 20px;
+    position: relative;
 }
 
-/* Estilo das células do cabeçalho da tabela */
-th {
-    background-color: #f2f2f2;
+.eddlink {
+    text-decoration: none;
+    color: #777;
+}
+
+.titulo {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.subtitulo {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: -20px;
+}
+
+.hi {
+    background-color: red;
 }
