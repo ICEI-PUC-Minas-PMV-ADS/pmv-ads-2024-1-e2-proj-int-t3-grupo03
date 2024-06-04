@@ -538,3 +538,9 @@ FodyWeavers.xsd
 # Additional files built by Visual Studio
 
 # End of https://www.toptal.com/developers/gitignore/api/aspnetcore,visualstudio
+/src/obj/Debug/net8.0/Kippa.AssemblyInfo.cs
+/src/obj/Debug/net8.0/Kippa.AssemblyInfoInputs.cache
+/src/obj/Debug/net8.0/Kippa.assets.cache
+/src/obj/Debug/net8.0/Kippa.csproj.AssemblyReference.cache
+/src/obj/Debug/net8.0/Kippa.GeneratedMSBuildEditorConfig.editorconfig
+/src/appsettings.Development.json

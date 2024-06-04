@@ -5,6 +5,49 @@
     margin: 0 auto;
     top: 15vh;
     justify-content: space-between;
+    margin-left: 40%;
+}
+
+.listitem {
+    background-color: hsl(203, 100%, 46%);
+    border-radius: 5px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(210, 100%, 46%);
+    border-radius: 20px;
+    width: 33%;
+    height: auto;
+    margin-bottom: 1em;
+    left: 0;
+    justify-content: space-between;
+    font-size: 25px;
+    color: white;
+    padding: 1em;
+}
+
+.infobox {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 60%;
+    width: 65%;
+    font-size: 30px;
+    margin-top: -18.1em;
+}
+
+.info {
+    width: 1000px;
+    margin-left: -38%;
+    padding-top: 20px;
+    height: 60px;
+    color: black;
+    border: 2px dotted gray;
+    border-radius: 20px;
+    margin-bottom: 3px;
 }
 
 .btn {
@@ -22,6 +65,7 @@
     color: white;
     width: 30%;
 }
+
 table {
     width: 100%;
     border-collapse: collapse;
