@@ -1,1 +1,8 @@
-﻿
+﻿.centralizar {
+    top: 35vh;
+    position: relative;
+}
+
+.text-center {
+    background-image: url('Kippa1.jpg')
+}

@@ -55,11 +55,11 @@
                 @Html.DisplayFor(modelItem => item.DataCadastro)
             </div>
             </div>
-            <div>
-        <a asp-action="Edit" asp-route-id="@item.IdUsuario">Edit</a>
+        <div style="padding-bottom:3em;">
+        <a asp-action="Edit" asp-route-id="@item.IdUsuario" >Edit</a>
         <a asp-action="Details" asp-route-id="@item.IdUsuario">Details</a>
         <a asp-action="Delete" asp-route-id="@item.IdUsuario">Delete</a>
-            </div>
+        </div>
 }
     </tbody>
 </table>
