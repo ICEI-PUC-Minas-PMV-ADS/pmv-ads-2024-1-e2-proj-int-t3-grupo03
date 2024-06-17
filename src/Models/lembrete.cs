@@ -18,4 +18,6 @@ public partial class Lembrete
     public int? Notificacoes { get; set; }
 
     public virtual Usuario? Usuario { get; set; }
+
+    public string Categoria { get; set; }
 }

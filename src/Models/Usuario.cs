@@ -27,5 +27,13 @@ public partial class Usuario
 
     public virtual ICollection<Tarefa> Tarefas { get; set; } = new List<Tarefa>();
 
+    public Perfil Perfil { get; set; }
 
+
+}
+
+public enum Perfil
+{
+    Admin,
+    user
 }

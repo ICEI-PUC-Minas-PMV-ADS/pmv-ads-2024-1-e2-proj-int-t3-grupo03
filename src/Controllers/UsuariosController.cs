@@ -1,18 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using Kippa.Models;
-using System.Security.Claims;
+﻿using Kippa.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
 
 namespace Kippa.Controllers
 {
- 
+    [Authorize]
+   
     public class UsuariosController : Controller
     {
         private readonly KippaContext _context;
@@ -22,35 +18,42 @@ namespace Kippa.Controllers
             _context = context;
         }
 
+        [Authorize(Roles = "Admin, user")]
+        public IActionResult AccessDenied()
+        {
+            return View();
+        }
         // GET: Usuarios
         public async Task<IActionResult> Index()
         {
             return View(await _context.Usuarios.ToListAsync());
         }
- 
+
         public async Task<IActionResult> FormLogin()
         {
             return View();
         }
-      
+        [HttpPost]
+        [AllowAnonymous]
         public async Task<IActionResult> Login(Usuario usuario)
         {
-            var dados =  _context.Usuarios.FirstOrDefault(u => u.Nome == usuario.Nome);
+            var dados = _context.Usuarios.FirstOrDefault(u => u.Nome == usuario.Nome);
             if (dados == null)
             {
-               return ViewBag.Message = "Usuario ou senha estão inválidos";
+                return ViewBag.Message = "Usuario ou senha estão inválidos";
             }
             bool senhaOK = BCrypt.Net.BCrypt.Verify(usuario.Senha, dados.Senha);
             if (senhaOK)
             {
                 // Claim são informações credenciais do usuário
                 var claims = new List<Claim>
-                {
-                    new Claim(ClaimTypes.Name, dados.Nome),
-                    new Claim(ClaimTypes.NameIdentifier, dados.IdUsuario.ToString()),
-                    new Claim(ClaimTypes.Name, dados.Nome)
+         {
+             new Claim(ClaimTypes.Name, dados.Nome),
+             new Claim(ClaimTypes.NameIdentifier, dados.IdUsuario.ToString()),
+             new Claim(ClaimTypes.Name, dados.Nome),
+             new Claim(ClaimTypes.Role, dados.Perfil.ToString())
 
-                };
+         };
 
                 var usuarioIdentity = new ClaimsIdentity(claims, "Login");
                 ClaimsPrincipal principal = new ClaimsPrincipal(usuarioIdentity);
@@ -73,6 +76,7 @@ namespace Kippa.Controllers
             return RedirectToAction("Index");
         }
         // GET: Usuarios/Details/5
+        [AllowAnonymous]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -90,6 +94,7 @@ namespace Kippa.Controllers
             return View(usuario);
         }
 
+        [AllowAnonymous]
         // GET: Usuarios/Create
         public IActionResult Create()
         {
@@ -99,13 +104,28 @@ namespace Kippa.Controllers
         // POST: Usuarios/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public async Task<IActionResult> Create([Bind("IdUsuario,Email,Nome,Senha,DataNascimento,Profissao,Objetivo,DataCadastro,Perfil")] Usuario usuario)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        _context.Add(usuario);
+        //        await _context.SaveChangesAsync();
+        //        return RedirectToAction(nameof(Index));
+        //    }
+        //    return View(usuario);
+        //}
+        [AllowAnonymous]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdUsuario,Email,Nome,Senha,DataNascimento,Profissao,Objetivo,DataCadastro")] Usuario usuario)
+        public async Task<IActionResult> Create([Bind("IdUsuario,Email,Nome,Senha,DataNascimento,Profissao,Objetivo,DataCadastro,Perfil")] Usuario usuario)
         {
             if (ModelState.IsValid)
             {
+                // Hashing the password before saving
                 usuario.Senha = BCrypt.Net.BCrypt.HashPassword(usuario.Senha);
+
                 _context.Add(usuario);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -134,7 +154,7 @@ namespace Kippa.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("IdUsuario,Email,Nome,Senha,DataNascimento,Profissao,Objetivo,DataCadastro")] Usuario usuario)
+        public async Task<IActionResult> Edit(int id, [Bind("IdUsuario,Email,Nome,Senha,DataNascimento,Profissao,Objetivo,DataCadastro,Perfil")] Usuario usuario)
         {
             if (id != usuario.IdUsuario)
             {
@@ -145,7 +165,6 @@ namespace Kippa.Controllers
             {
                 try
                 {
-                    usuario.Senha = BCrypt.Net.BCrypt.HashPassword(usuario.Senha);
                     _context.Update(usuario);
                     await _context.SaveChangesAsync();
                 }
