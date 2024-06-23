@@ -6,60 +6,27 @@
 
 <h1>Index</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
+<p class="createnew">
+    <a asp-action="Create" style="color:white; text-decoration:none;">Criar Novo Lembrete</a>
 </p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.NomeLembrete)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DataLembrete)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.HoraLembrete)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Notificacoes)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Usuario)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Categoria)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
+<div class="lembcont">
+    @foreach (var item in Model)
+    {
+        <div class="lembreteitem">
+            <p class="titulo">
                 @Html.DisplayFor(modelItem => item.NomeLembrete)
-            </td>
-            <td>
+            </p>
+            <p class="subtitulo">
                 @Html.DisplayFor(modelItem => item.DataLembrete)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.HoraLembrete)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Notificacoes)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Usuario.Senha)
-            </td>
+            </p>
             <td>
                 @Html.DisplayFor(modelItem => item.Categoria)
             </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.IdLembrete">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.IdLembrete">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdLembrete">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+            <p class="edd">
+                <a class="eddlink" asp-action="Edit" asp-route-id="@item.IdLembrete" style="color:#444; text-decoration:none;">Editar</a> |
+                <a class="eddlink" asp-action="Details" asp-route-id="@item.IdLembrete" style="color:#444; text-decoration:none;">Detalhes</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdLembrete" style="color:#444; text-decoration:none;">Deletar</a>
+            </p>
+        </div>
+    }
+</div>

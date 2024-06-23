@@ -9,7 +9,7 @@ using System.Security.Claims;
 namespace Kippa.Controllers
 {
     [Authorize]
-   
+
     public class UsuariosController : Controller
     {
         private readonly KippaContext _context;
@@ -69,7 +69,7 @@ namespace Kippa.Controllers
                     ExpiresUtc = DateTime.UtcNow.ToLocalTime().AddHours(8),
                     IsPersistent = true
                 };
-                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,principal, props);
+                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal, props);
 
                 return RedirectToAction("Index", "Home");
             }

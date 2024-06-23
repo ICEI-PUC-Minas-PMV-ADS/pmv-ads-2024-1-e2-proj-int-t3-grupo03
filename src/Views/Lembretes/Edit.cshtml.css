@@ -1,0 +1,21 @@
+﻿.form {
+    display: flex;
+    background-color: #6EC8FA;
+    width: 35vw;
+    height: 55vh;
+    position: relative;
+    margin: 0 auto;
+    top: 10vh;
+    overflow: scroll;
+    flex-flow: column;
+}
+
+.form-group {
+    margin-top: 3em;
+}
+
+.col-md-4 {
+    width: 75% !important;
+    margin: 0 auto !important;
+    overflow-x: hidden;
+}
