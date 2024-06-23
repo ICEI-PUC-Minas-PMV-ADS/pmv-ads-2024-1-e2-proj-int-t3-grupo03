@@ -80,6 +80,13 @@ namespace Kippa.Controllers
             }
             return RedirectToAction("Index");
         }
+        // Logout
+        [Authorize]
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync();
+            return RedirectToAction("Index", "Home");
+        }
         // GET: Usuarios/Details/5
         [AllowAnonymous]
         public async Task<IActionResult> Details(int? id)
