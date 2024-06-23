@@ -81,7 +81,7 @@
 <p>
 
     <div class="btnholder">
-        <a href="Create"> <div class="btn"> Criar </div> </a>
+        <a href="/Usuarios/Create"> <div class="btn"> Criar </div> </a>
     </div>
 
 </p>
@@ -105,8 +105,9 @@
             @Html.DisplayNameFor(model => model.Objetivo)
         </p>
         <p class="listitem">
-            @Html.DisplayNameFor(model => model.DataCadastro)
+            @Html.DisplayNameFor(model => model.Perfil)
         </p>
+        
     </div>
     <div class="infobox">
         <div class="info">
@@ -125,8 +126,10 @@
             @Html.DisplayFor(modelItem => item.Objetivo)
         </div>
         <div class="info">
-            @Html.DisplayFor(modelItem => item.DataCadastro)
+            @Html.DisplayFor(modelItem => item.Perfil)
         </div>
+        
+
     </div>
     <div style="padding-bottom:3em;">
         <a asp-action="Edit" asp-route-id="@item.IdUsuario">Edit</a>
@@ -134,5 +137,4 @@
         <a asp-action="Delete" asp-route-id="@item.IdUsuario">Delete</a>
     </div>
 }
-    </tbody>
-</table>
+  

@@ -29,6 +29,9 @@
     <None Remove="Views\Lembretes\Edit.cshtml.css" />
     <None Remove="Views\Lembretes\Index.cshtml.css" />
     <None Remove="Views\Usuarios\Create.cshtml.css" />
+    <None Remove="Views\Usuarios\Delete.cshtml.css" />
+    <None Remove="Views\Usuarios\Details.cshtml.css" />
+    <None Remove="Views\Usuarios\Edit.cshtml.css" />
     <None Remove="Views\Usuarios\Index.cshtml.css" />
   </ItemGroup>
 
@@ -39,6 +42,9 @@
     <Content Include="Views\Lembretes\Edit.cshtml.css" />
     <Content Include="Views\Lembretes\Index.cshtml.css" />
     <Content Include="Views\Usuarios\Create.cshtml.css" />
+    <Content Include="Views\Usuarios\Delete.cshtml.css" />
+    <Content Include="Views\Usuarios\Details.cshtml.css" />
+    <Content Include="Views\Usuarios\Edit.cshtml.css" />
     <Content Include="Views\Usuarios\Index.cshtml.css" />
   </ItemGroup>
 
