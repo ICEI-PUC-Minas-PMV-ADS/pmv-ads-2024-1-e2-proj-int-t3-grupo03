@@ -12,42 +12,45 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
-               @*  <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Kippa</a> *@
+                @*  <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Kippa</a> *@
                 @* <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
                 </button> *@
                 <nav class="nav">
                     <ul>
                         @if (User.Identity.IsAuthenticated)
-                        {                           
+                        {
                             <ul>
                                 <li><a style="font-weight:800; font-size: 2em;" href="telainicial.cshtml">KIPA</a>
                                 <li class="nav-item">
                                     <a class="title"> Olá, @User.Identity.Name </a>  @* <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="Logout"> Sair</a> *@
 
                                 </li>
-                               
-                                <li><a href="Tarefas/Index">Tarefas</a>
-                                <li><a href="Lembretes/Index">Lembretes</a>
-                                <li><a href="Usuarios/Index">Configurações</a>
+
+                                <li><a href="/Tarefas/Index">Tarefas</a>
+                                <li><a href="/Lembretes/Index">Lembretes</a>
                                 <li> <a asp-area="" asp-controller="Usuarios" asp-action="Logout" style="color: white; width: 30%; text-decoration: none; padding: 1rem 2rem; float:right;">Sair</a> </li>
 
 
                             </ul>
+                            @if (User.IsInRole("Admin"))
+                            {
+                                <li><a href="/Usuarios/Index">Configurações</a></li>
+                            }
                         }
                         else
                         {
                             <ul class="rul">
-                               @*  <li class="rul" class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="FormLogin">Login</a>
-                                </li> *@
-                                <li><a href="Usuarios/FormLogin">Login</a></li>
-                                <li><a href="Usuarios/Create">Cadastre-se</a></li>
-                            </ul>
-                           @*  <li class="rul" class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios"  asp-action="FormLogin">Login</a>
+                                @*  <li class="rul" class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="FormLogin">Login</a>
                             </li> *@
+                                <li><a href="/Usuarios/FormLogin">Login</a></li>
+                                <li><a href="/Usuarios/Create">Cadastre-se</a></li>
+                            </ul>
+                            @*  <li class="rul" class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios"  asp-action="FormLogin">Login</a>
+                        </li> *@
                         }
 
 
@@ -75,4 +78,3 @@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
-

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vostro5471\\Source\\Repos\\pmv-ads-2024-1-e2-ProjKipa\\src\\Kippa.csproj": {}
+    "C:\\Users\\vostro5471\\Documents\\KippaProject\\pmv-ads-2024-1-e2-ProjKipa\\src\\Kippa.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vostro5471\\Source\\Repos\\pmv-ads-2024-1-e2-ProjKipa\\src\\Kippa.csproj": {
+    "C:\\Users\\vostro5471\\Documents\\KippaProject\\pmv-ads-2024-1-e2-ProjKipa\\src\\Kippa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vostro5471\\Source\\Repos\\pmv-ads-2024-1-e2-ProjKipa\\src\\Kippa.csproj",
+        "projectUniqueName": "C:\\Users\\vostro5471\\Documents\\KippaProject\\pmv-ads-2024-1-e2-ProjKipa\\src\\Kippa.csproj",
         "projectName": "Kippa",
-        "projectPath": "C:\\Users\\vostro5471\\Source\\Repos\\pmv-ads-2024-1-e2-ProjKipa\\src\\Kippa.csproj",
+        "projectPath": "C:\\Users\\vostro5471\\Documents\\KippaProject\\pmv-ads-2024-1-e2-ProjKipa\\src\\Kippa.csproj",
         "packagesPath": "C:\\Users\\vostro5471\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vostro5471\\Source\\Repos\\pmv-ads-2024-1-e2-ProjKipa\\src\\obj\\",
+        "outputPath": "C:\\Users\\vostro5471\\Documents\\KippaProject\\pmv-ads-2024-1-e2-ProjKipa\\src\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vostro5471\\AppData\\Roaming\\NuGet\\NuGet.Config",

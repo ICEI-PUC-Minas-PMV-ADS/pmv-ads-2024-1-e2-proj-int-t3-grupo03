@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rtoMgqm/yBeKPcKuyxhDmx7/jJVR69nQ/Hqiwm8KVz55eoJtyK8Ob4+H39PMg2nYR6q1m2sBNRKpXFIGICDG4g==",
+  "dgSpecHash": "7LFR153/3qpl6oAIxlmJTxsqVx7Mq+Gmxl02Pz6XYXSdaw4DQ4m6aba0mCk/qjTU16f4z6eZ7iVyPg4+clw44g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vostro5471\\Source\\Repos\\pmv-ads-2024-1-e2-ProjKipa\\src\\Kippa.csproj",
+  "projectFilePath": "C:\\Users\\vostro5471\\Documents\\KippaProject\\pmv-ads-2024-1-e2-ProjKipa\\src\\Kippa.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vostro5471\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\vostro5471\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
