@@ -24,20 +24,14 @@
 
   <ItemGroup>
     <None Remove="Views\Home\Index.cshtml.css" />
-    <None Remove="Views\Lembretes\Create.cshtml.css" />
-    <None Remove="Views\Lembretes\Delete.cshtml.css" />
-    <None Remove="Views\Lembretes\Details.cshtml.css" />
-    <None Remove="Views\Lembretes\Edit.cshtml.css" />
-    <None Remove="Views\Lembretes\Index.cshtml.css" />
+    <None Remove="Views\Usuarios\Create.cshtml.css" />
+    <None Remove="Views\Usuarios\Index.cshtml.css" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="Views\Home\Index.cshtml.css" />
-    <Content Include="Views\Lembretes\Delete.cshtml.css" />
-    <Content Include="Views\Lembretes\Details.cshtml.css" />
-    <Content Include="Views\Lembretes\Edit.cshtml.css" />
-    <Content Include="Views\Lembretes\Create.cshtml.css" />
-    <Content Include="Views\Lembretes\Index.cshtml.css" />
+    <Content Include="Views\Usuarios\Create.cshtml.css" />
+    <Content Include="Views\Usuarios\Index.cshtml.css" />
   </ItemGroup>
 
   <ItemGroup>

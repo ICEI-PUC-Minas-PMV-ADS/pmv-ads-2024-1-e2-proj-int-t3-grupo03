@@ -7,25 +7,25 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Kippa.Models;
 
-namespace Kippa.Controllers
+namespace Kippa.Views
 {
-    public class LembretesController : Controller
+    public class LembretesView : Controller
     {
         private readonly KippaContext _context;
 
-        public LembretesController(KippaContext context)
+        public LembretesView(KippaContext context)
         {
             _context = context;
         }
 
-        // GET: Lembretes
+        // GET: LembretesView
         public async Task<IActionResult> Index()
         {
             var kippaContext = _context.Lembretes.Include(l => l.Usuario);
             return View(await kippaContext.ToListAsync());
         }
 
-        // GET: Lembretes/Details/5
+        // GET: LembretesView/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -44,14 +44,14 @@ namespace Kippa.Controllers
             return View(lembrete);
         }
 
-        // GET: Lembretes/Create
+        // GET: LembretesView/Create
         public IActionResult Create()
         {
             ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "IdUsuario", "Senha");
             return View();
         }
 
-        // POST: Lembretes/Create
+        // POST: LembretesView/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
@@ -68,7 +68,7 @@ namespace Kippa.Controllers
             return View(lembrete);
         }
 
-        // GET: Lembretes/Edit/5
+        // GET: LembretesView/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -85,7 +85,7 @@ namespace Kippa.Controllers
             return View(lembrete);
         }
 
-        // POST: Lembretes/Edit/5
+        // POST: LembretesView/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
@@ -121,7 +121,7 @@ namespace Kippa.Controllers
             return View(lembrete);
         }
 
-        // GET: Lembretes/Delete/5
+        // GET: LembretesView/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -140,7 +140,7 @@ namespace Kippa.Controllers
             return View(lembrete);
         }
 
-        // POST: Lembretes/Delete/5
+        // POST: LembretesView/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)

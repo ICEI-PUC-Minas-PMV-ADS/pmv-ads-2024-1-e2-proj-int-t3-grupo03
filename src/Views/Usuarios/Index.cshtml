@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Kippa.Models.Usuario>
+﻿@* @model IEnumerable<Kippa.Models.Usuario>
 
 @{
     ViewData["Title"] = "Index";
@@ -46,9 +46,6 @@
                 @Html.DisplayFor(modelItem => item.Nome)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Senha)
-            </td>
-            <td>
                 @Html.DisplayFor(modelItem => item.DataNascimento)
             </td>
             <td>
@@ -69,6 +66,73 @@
                 <a asp-action="Delete" asp-route-id="@item.IdUsuario">Delete</a>
             </td>
         </tr>
+}
+    </tbody>
+</table>
+ *@
+ @model IEnumerable<Kippa.Models.Usuario>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+
+    <div class="btnholder">
+        <a href="Create"> <div class="btn"> Criar </div> </a>
+    </div>
+
+</p>
+
+@foreach (var item in Model)
+{
+    <div class="sidebar">
+        <p class="listitem">
+            @Html.DisplayNameFor(model => model.Email)
+        </p>
+        <p class="listitem">
+            @Html.DisplayNameFor(model => model.Nome)
+        </p>
+        <p class="listitem">
+            @Html.DisplayNameFor(model => model.DataNascimento)
+        </p>
+        <p class="listitem">
+            @Html.DisplayNameFor(model => model.Profissao)
+        </p>
+        <p class="listitem">
+            @Html.DisplayNameFor(model => model.Objetivo)
+        </p>
+        <p class="listitem">
+            @Html.DisplayNameFor(model => model.DataCadastro)
+        </p>
+    </div>
+    <div class="infobox">
+        <div class="info">
+            @Html.DisplayFor(modelItem => item.Email)
+        </div>
+        <div class="info">
+            @Html.DisplayFor(modelItem => item.Nome)
+        </div>
+        <div class="info">
+            @Html.DisplayFor(modelItem => item.DataNascimento)
+        </div>
+        <div class="info">
+            @Html.DisplayFor(modelItem => item.Profissao)
+        </div>
+        <div class="info">
+            @Html.DisplayFor(modelItem => item.Objetivo)
+        </div>
+        <div class="info">
+            @Html.DisplayFor(modelItem => item.DataCadastro)
+        </div>
+    </div>
+    <div style="padding-bottom:3em;">
+        <a asp-action="Edit" asp-route-id="@item.IdUsuario">Edit</a>
+        <a asp-action="Details" asp-route-id="@item.IdUsuario">Details</a>
+        <a asp-action="Delete" asp-route-id="@item.IdUsuario">Delete</a>
+    </div>
 }
     </tbody>
 </table>

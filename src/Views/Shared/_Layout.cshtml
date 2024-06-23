@@ -28,15 +28,15 @@
 
                                 </li>
                                
-                                <li><a href="Tarefas/Index">Tarefas</a>
-                                <li><a href="Lembretes/Index">Lembretes</a>                             
+                                <li><a href="/Tarefas/Index">Tarefas</a>
+                                <li><a href="/Lembretes/Index">Lembretes</a>                             
                                 <li> <a href="/">Sair</a> </li>
 
 
                             </ul>
                             @if (User.IsInRole("Admin"))
                             {
-                                <li><a href="Usuarios/Index">Configurações</a></li>
+                                <li><a href="/Usuarios/Index">Configurações</a></li>
                             }
                         }
                         else
@@ -45,8 +45,8 @@
                                @*  <li class="rul" class="nav-item">
                                     <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="FormLogin">Login</a>
                                 </li> *@
-                                <li><a href="Usuarios/FormLogin">Login</a></li>
-                                <li><a href="Usuarios/Create">Cadastre-se</a></li>
+                                <li><a href="/Usuarios/FormLogin">Login</a></li>
+                                <li><a href="/Usuarios/Create">Cadastre-se</a></li>
                             </ul>
                            @*  <li class="rul" class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios"  asp-action="FormLogin">Login</a>

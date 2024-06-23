@@ -1,5 +1,6 @@
 ﻿using Kippa.Models;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -29,11 +30,13 @@ namespace Kippa.Controllers
             return View(await _context.Usuarios.ToListAsync());
         }
 
-        public async Task<IActionResult> FormLogin()
+        [AllowAnonymous]
+        public IActionResult FormLogin(string returnUrl = null)
         {
+            ViewBag.ReturnUrl = returnUrl;
             return View();
         }
-        [HttpPost]
+
         [AllowAnonymous]
         public async Task<IActionResult> Login(Usuario usuario)
         {
@@ -43,6 +46,7 @@ namespace Kippa.Controllers
                 return ViewBag.Message = "Usuario ou senha estão inválidos";
             }
             bool senhaOK = BCrypt.Net.BCrypt.Verify(usuario.Senha, dados.Senha);
+
             if (senhaOK)
             {
                 // Claim são informações credenciais do usuário
@@ -65,13 +69,14 @@ namespace Kippa.Controllers
                     ExpiresUtc = DateTime.UtcNow.ToLocalTime().AddHours(8),
                     IsPersistent = true
                 };
-                await HttpContext.SignInAsync(principal, props);
+                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,principal, props);
 
-                Redirect("/");
+                return RedirectToAction("Index", "Home");
             }
             else
             {
                 ViewBag.Message = "Usuario ou senha estão inválidos";
+                return View("FormLogin");
             }
             return RedirectToAction("Index");
         }
@@ -121,9 +126,9 @@ namespace Kippa.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("IdUsuario,Email,Nome,Senha,DataNascimento,Profissao,Objetivo,DataCadastro,Perfil")] Usuario usuario)
         {
+
             if (ModelState.IsValid)
             {
-                // Hashing the password before saving
                 usuario.Senha = BCrypt.Net.BCrypt.HashPassword(usuario.Senha);
 
                 _context.Add(usuario);
@@ -165,6 +170,7 @@ namespace Kippa.Controllers
             {
                 try
                 {
+
                     _context.Update(usuario);
                     await _context.SaveChangesAsync();
                 }

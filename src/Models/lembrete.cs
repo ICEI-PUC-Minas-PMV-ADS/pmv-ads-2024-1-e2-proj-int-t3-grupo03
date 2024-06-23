@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Kippa.Models;
+﻿namespace Kippa.Models;
 
 public partial class Lembrete
 {

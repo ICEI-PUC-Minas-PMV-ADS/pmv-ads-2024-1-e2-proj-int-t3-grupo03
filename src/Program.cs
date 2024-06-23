@@ -20,7 +20,7 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
     .AddCookie(options =>
     {
         options.AccessDeniedPath = "/Usuarios/AccessDenied/";
-        options.LoginPath = "/Usuarios/Login";
+        options.LoginPath = "/Usuarios/FormLogin";
     });
 var app = builder.Build();
 
@@ -39,6 +39,7 @@ app.UseRouting();
 
 app.UseAuthentication();
 app.UseAuthorization();
+app.UseCookiePolicy();
 
 app.MapControllerRoute(
     name: "default",
