@@ -64,19 +64,9 @@
 |	Requisito Associado 	| RF-009 - O site deve permitir o upload de fotos para a conta do usuário |
 |Registro de evidência |  |
 
-| *Caso de Teste* 	| *CT-13 – Criar alarme de lembretes* 	|
+| *Caso de Teste* 	| *CT-13 – Definição de categorias para lembretes* 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-010 - O site deve permitir a definição de alarme para lembretes |
-|Registro de evidência |  |
-
-| *Caso de Teste* 	| *CT-14 – Definição de alarmes para lembretes* 	|
-|:---:	|:---:	|
-|	Requisito Associado 	| RF-011 - O site deve notificar o usuário depois do tempo definido em um lembrete ou rotina acabar |
-|Registro de evidência |  |
-
-| *Caso de Teste* 	| *CT-15 – Definição de classificações para lembretes* 	|
-|:---:	|:---:	|
-|	Requisito Associado 	| RF-012 - O site deve separar lembretes em seções diferentes por meio de classificações dadas pelo usuário |
+|	Requisito Associado 	| RF-012 - O site deve categorizar lembretes por meio de classificações dadas pelo usuário |
 |Registro de evidência |  |
 
 # Avaliação
