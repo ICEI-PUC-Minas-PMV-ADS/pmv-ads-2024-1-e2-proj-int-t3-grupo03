@@ -52,12 +52,12 @@
 | *Caso de Teste* 	| *CT-10 – Edição de Rotinas* 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-008 - O site deve permitir a criação, deleção e edição de rotinas |
-|Registro de evidência | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa/assets/127974486/b9abe2f6-9688-4b85-976f-95979a312477 |
+|Registro de evidência | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa/blob/main/docs/vids/editarRotina-Tarefa.mp4 |
 
 | *Caso de Teste* 	| *CT-11 – Deletar Rotinas* 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-008 - O site deve permitir a criação, deleção e edição de rotinas |
-|Registro de evidência | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa/assets/127974486/5313d511-b4b9-4ad9-af07-9ff115798d6f |
+|Registro de evidência | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa/blob/main/docs/vids/deletarRotina-Tarefa.mp4 |
 
 | *Caso de Teste* 	| *CT-13 – Definição de categorias para lembretes* 	|
 |:---:	|:---:	|
