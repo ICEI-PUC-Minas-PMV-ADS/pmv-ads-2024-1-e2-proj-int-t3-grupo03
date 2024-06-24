@@ -23,14 +23,6 @@
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa/assets/107258146/536d627c-d67a-452e-b970-088ec024ac62)
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa/assets/107258146/a961cd61-9313-406c-b21c-e3d38291a5ad)
-
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa/assets/107258146/df36c7c7-e67e-4b1b-9f64-e68ab13afbbd)
-
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa/assets/107258146/428b8c78-bbdf-4e46-8957-0916fd5a582b)
-
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa/assets/107258146/970f8058-54b0-45c3-9024-f139d9980f29)
-
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa/assets/107258146/cd198265-dc57-4c85-b6b6-876fd716cb27)
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-ProjKipa/assets/107258146/9e64d1ef-4d3d-4de4-bbe2-749d37ee8de1)
